@@ -1,0 +1,1000 @@
+{
+  "started_at": "2026-10-28T23:23:36+08:00",
+  "ended_at": "2026-10-28T23:29:04+08:00",
+  "conditions": [
+    {
+      "experiment_id": "20261028_2323_experience_chair_\u8d1f10",
+      "task": "chair",
+      "offset_m": -0.1,
+      "native_ever": false,
+      "native_terminal": false,
+      "success": false,
+      "failure": "navigation_timeout",
+      "completed": false,
+      "stage_coverage": {
+        "navigation": 8996,
+        "settle": 0,
+        "approach": 0,
+        "contact": 0,
+        "acquire": 0,
+        "lift": 0,
+        "hold": 0,
+        "done": 0
+      },
+      "stage_coverage_all_integrated_suffixes": {
+        "navigation": 8996,
+        "settle": 0,
+        "approach": 0,
+        "contact": 0,
+        "acquire": 0,
+        "lift": 0,
+        "hold": 0,
+        "done": 0
+      },
+      "attempts": [
+        {
+          "branch": 0,
+          "failure": "navigation_timeout",
+          "outcome": "task_predicate_failed",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:23:45+08:00",
+          "inherited_prefix_steps": 0,
+          "newly_integrated_steps": 8996,
+          "executed_steps": 8996,
+          "ended_at": "2026-10-28T23:24:23+08:00"
+        }
+      ],
+      "actual_integrated_steps_all_branches": 8996,
+      "recorded_final_branch_steps": 8996,
+      "wrist_tracking_m": {
+        "left": {
+          "rmse": 0.01608283438974279,
+          "p95": 0.026718870528746053,
+          "maximum": 0.05634352567802986
+        },
+        "right": {
+          "rmse": 0.016136900466566354,
+          "p95": 0.024760299962230906,
+          "maximum": 0.07270892126143853
+        }
+      },
+      "wrist_tracking_rad": {
+        "left": {
+          "rmse": 0.09859776767457691,
+          "p95": 0.15047824700153975,
+          "maximum": 0.21803313801384788
+        },
+        "right": {
+          "rmse": 0.06417077200136555,
+          "p95": 0.11368198876413865,
+          "maximum": 0.1949068107644395
+        }
+      },
+      "true_table_contact_peak_N": 0.0,
+      "all_obstacle_contact_peak_N": 0.0,
+      "criterion": "native",
+      "retained_grasp": null,
+      "timing": {
+        "planning_wall_s": 0.14232499292120337,
+        "physics_step_compute_wall_s": 3.5341601972468197,
+        "total_execution_wall_s": 40.904567724093795,
+        "simulation_s": 44.98000000000456,
+        "rendering_wall_s": null
+      },
+      "body_hand_audit": {
+        "passed": true,
+        "actual_modes": [
+          1
+        ],
+        "original_token_steps": 0,
+        "trajectory_coverage_checked": true,
+        "body_tokens": 2249,
+        "hand_steps": 8996,
+        "post_decoder_override": false,
+        "simulator_warning_count": 0,
+        "recorded_state_continuity": true
+      },
+      "contract_sha256": "5141f6890abe4071f18056bc575b203de4e9bcd72b12b91ac3bd7ef2a5a43be8",
+      "frozen_contract_hash_matches": true,
+      "actual_frozen_snapshot_hashes_match": true,
+      "posthoc_script_sha256": "4ce2259708aea4257f1ea5637955efe0a99910e36ac9cab725488da0f8ffe650"
+    },
+    {
+      "experiment_id": "20261028_2324_experience_chair_\u6b6310",
+      "task": "chair",
+      "offset_m": 0.1,
+      "native_ever": false,
+      "native_terminal": false,
+      "success": false,
+      "failure": "navigation_timeout",
+      "completed": false,
+      "stage_coverage": {
+        "navigation": 8996,
+        "settle": 0,
+        "approach": 0,
+        "contact": 0,
+        "acquire": 0,
+        "lift": 0,
+        "hold": 0,
+        "done": 0
+      },
+      "stage_coverage_all_integrated_suffixes": {
+        "navigation": 8996,
+        "settle": 0,
+        "approach": 0,
+        "contact": 0,
+        "acquire": 0,
+        "lift": 0,
+        "hold": 0,
+        "done": 0
+      },
+      "attempts": [
+        {
+          "branch": 0,
+          "failure": "navigation_timeout",
+          "outcome": "task_predicate_failed",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:24:31+08:00",
+          "inherited_prefix_steps": 0,
+          "newly_integrated_steps": 8996,
+          "executed_steps": 8996,
+          "ended_at": "2026-10-28T23:25:10+08:00"
+        }
+      ],
+      "actual_integrated_steps_all_branches": 8996,
+      "recorded_final_branch_steps": 8996,
+      "wrist_tracking_m": {
+        "left": {
+          "rmse": 0.01512323547351138,
+          "p95": 0.023177817451728016,
+          "maximum": 0.06493112177556593
+        },
+        "right": {
+          "rmse": 0.015779978755344155,
+          "p95": 0.025067257538437124,
+          "maximum": 0.05400518525042029
+        }
+      },
+      "wrist_tracking_rad": {
+        "left": {
+          "rmse": 0.10469995238595685,
+          "p95": 0.1528329770385971,
+          "maximum": 0.18655726460672303
+        },
+        "right": {
+          "rmse": 0.06614954547416634,
+          "p95": 0.1127541074624518,
+          "maximum": 0.22695226294093143
+        }
+      },
+      "true_table_contact_peak_N": 0.0,
+      "all_obstacle_contact_peak_N": 0.0,
+      "criterion": "native",
+      "retained_grasp": null,
+      "timing": {
+        "planning_wall_s": 0.14708458818495274,
+        "physics_step_compute_wall_s": 3.6531433751806617,
+        "total_execution_wall_s": 41.77647618111223,
+        "simulation_s": 44.98000000000456,
+        "rendering_wall_s": null
+      },
+      "body_hand_audit": {
+        "passed": true,
+        "actual_modes": [
+          1
+        ],
+        "original_token_steps": 0,
+        "trajectory_coverage_checked": true,
+        "body_tokens": 2249,
+        "hand_steps": 8996,
+        "post_decoder_override": false,
+        "simulator_warning_count": 0,
+        "recorded_state_continuity": true
+      },
+      "contract_sha256": "98fc47a2bf639fd2493ea1b87edf57acf4f7ad3ad31830ba281dcf0bf1d84a3f",
+      "frozen_contract_hash_matches": true,
+      "actual_frozen_snapshot_hashes_match": true,
+      "posthoc_script_sha256": "4ce2259708aea4257f1ea5637955efe0a99910e36ac9cab725488da0f8ffe650"
+    },
+    {
+      "experiment_id": "20261028_2325_experience_apple_\u8d1f10",
+      "task": "apple",
+      "offset_m": -0.1,
+      "native_ever": false,
+      "native_terminal": false,
+      "success": false,
+      "failure": "acquire_timeout",
+      "completed": false,
+      "stage_coverage": {
+        "navigation": 384,
+        "settle": 236,
+        "approach": 236,
+        "contact": 16,
+        "acquire": 800,
+        "lift": 0,
+        "hold": 0,
+        "done": 0
+      },
+      "stage_coverage_all_integrated_suffixes": {
+        "navigation": 384,
+        "settle": 236,
+        "approach": 476,
+        "contact": 48,
+        "acquire": 2248,
+        "lift": 1604,
+        "hold": 0,
+        "done": 0
+      },
+      "attempts": [
+        {
+          "branch": 0,
+          "failure": "lift_timeout",
+          "outcome": "no_acquisition",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:25:19+08:00",
+          "inherited_prefix_steps": 0,
+          "newly_integrated_steps": 3128,
+          "executed_steps": 3128,
+          "ended_at": "2026-10-28T23:25:32+08:00"
+        },
+        {
+          "branch": 1,
+          "failure": "acquire_timeout",
+          "outcome": "no_acquisition",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:25:33+08:00",
+          "inherited_prefix_steps": 620,
+          "newly_integrated_steps": 816,
+          "executed_steps": 1436,
+          "ended_at": "2026-10-28T23:25:36+08:00"
+        },
+        {
+          "branch": 2,
+          "failure": "acquire_timeout",
+          "outcome": "no_acquisition",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:25:37+08:00",
+          "inherited_prefix_steps": 620,
+          "newly_integrated_steps": 1052,
+          "executed_steps": 1672,
+          "ended_at": "2026-10-28T23:25:41+08:00"
+        }
+      ],
+      "actual_integrated_steps_all_branches": 4996,
+      "recorded_final_branch_steps": 1672,
+      "wrist_tracking_m": {
+        "left": {
+          "rmse": 0.031290457332117036,
+          "p95": 0.04755006777985025,
+          "maximum": 0.05571742279364432
+        },
+        "right": {
+          "rmse": 0.04661042077596507,
+          "p95": 0.0692901017566648,
+          "maximum": 0.07768752782263623
+        }
+      },
+      "wrist_tracking_rad": {
+        "left": {
+          "rmse": 0.1829185489905444,
+          "p95": 0.3158279692418734,
+          "maximum": 0.3368028922825007
+        },
+        "right": {
+          "rmse": 0.24456170039452998,
+          "p95": 0.33667285732910945,
+          "maximum": 0.38376170901723855
+        }
+      },
+      "true_table_contact_peak_N": 134.7893796544363,
+      "all_obstacle_contact_peak_N": 134.7893796544363,
+      "criterion": "native",
+      "retained_grasp": false,
+      "timing": {
+        "planning_wall_s": 0.0840735761448741,
+        "physics_step_compute_wall_s": 2.137051682919264,
+        "total_execution_wall_s": 22.9344148831442,
+        "simulation_s": 8.359999999999907,
+        "rendering_wall_s": null
+      },
+      "body_hand_audit": {
+        "passed": true,
+        "actual_modes": [
+          1
+        ],
+        "original_token_steps": 0,
+        "trajectory_coverage_checked": true,
+        "body_tokens": 418,
+        "hand_steps": 1672,
+        "post_decoder_override": false,
+        "simulator_warning_count": 0,
+        "recorded_state_continuity": true
+      },
+      "contract_sha256": "cf23f1d925207cb1cd04170cdd58c669ce28b95f0af9d19a9b1dbdd56ba2ed19",
+      "frozen_contract_hash_matches": true,
+      "actual_frozen_snapshot_hashes_match": true,
+      "posthoc_script_sha256": "4ce2259708aea4257f1ea5637955efe0a99910e36ac9cab725488da0f8ffe650"
+    },
+    {
+      "experiment_id": "20261028_2325_experience_apple_\u6b6310",
+      "task": "apple",
+      "offset_m": 0.1,
+      "native_ever": false,
+      "native_terminal": false,
+      "success": false,
+      "failure": "lift_timeout",
+      "completed": false,
+      "stage_coverage": {
+        "navigation": 560,
+        "settle": 60,
+        "approach": 68,
+        "contact": 16,
+        "acquire": 320,
+        "lift": 1604,
+        "hold": 0,
+        "done": 0
+      },
+      "stage_coverage_all_integrated_suffixes": {
+        "navigation": 560,
+        "settle": 60,
+        "approach": 112,
+        "contact": 64,
+        "acquire": 1180,
+        "lift": 3208,
+        "hold": 0,
+        "done": 0
+      },
+      "attempts": [
+        {
+          "branch": 0,
+          "failure": "lift_timeout",
+          "outcome": "no_acquisition",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:25:47+08:00",
+          "inherited_prefix_steps": 0,
+          "newly_integrated_steps": 2332,
+          "executed_steps": 2332,
+          "ended_at": "2026-10-28T23:25:57+08:00"
+        },
+        {
+          "branch": 1,
+          "failure": "acquire_timeout",
+          "outcome": "no_acquisition",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:25:58+08:00",
+          "inherited_prefix_steps": 620,
+          "newly_integrated_steps": 844,
+          "executed_steps": 1464,
+          "ended_at": "2026-10-28T23:26:01+08:00"
+        },
+        {
+          "branch": 2,
+          "failure": "lift_timeout",
+          "outcome": "no_acquisition",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:26:02+08:00",
+          "inherited_prefix_steps": 620,
+          "newly_integrated_steps": 2008,
+          "executed_steps": 2628,
+          "ended_at": "2026-10-28T23:26:10+08:00"
+        }
+      ],
+      "actual_integrated_steps_all_branches": 5184,
+      "recorded_final_branch_steps": 2628,
+      "wrist_tracking_m": {
+        "left": {
+          "rmse": 0.05244823713699064,
+          "p95": 0.08803046394270088,
+          "maximum": 0.11652695792069001
+        },
+        "right": {
+          "rmse": 0.06427004345465052,
+          "p95": 0.09625387764137389,
+          "maximum": 0.10944444718443709
+        }
+      },
+      "wrist_tracking_rad": {
+        "left": {
+          "rmse": 0.29640548213777124,
+          "p95": 0.49922313664914714,
+          "maximum": 0.5411150734300362
+        },
+        "right": {
+          "rmse": 0.3275598480535825,
+          "p95": 0.5128560099741204,
+          "maximum": 0.5475371801177421
+        }
+      },
+      "true_table_contact_peak_N": 262.7470853638851,
+      "all_obstacle_contact_peak_N": 262.7470853638851,
+      "criterion": "native",
+      "retained_grasp": false,
+      "timing": {
+        "planning_wall_s": 0.09439286915585399,
+        "physics_step_compute_wall_s": 2.191901338752359,
+        "total_execution_wall_s": 23.629627562128007,
+        "simulation_s": 13.140000000000654,
+        "rendering_wall_s": null
+      },
+      "body_hand_audit": {
+        "passed": true,
+        "actual_modes": [
+          1
+        ],
+        "original_token_steps": 0,
+        "trajectory_coverage_checked": true,
+        "body_tokens": 657,
+        "hand_steps": 2628,
+        "post_decoder_override": false,
+        "simulator_warning_count": 0,
+        "recorded_state_continuity": true
+      },
+      "contract_sha256": "f81ea54dd1000cbb4a2d5928d7b96161d15dd462dd672036ca2bef06c47f5930",
+      "frozen_contract_hash_matches": true,
+      "actual_frozen_snapshot_hashes_match": true,
+      "posthoc_script_sha256": "4ce2259708aea4257f1ea5637955efe0a99910e36ac9cab725488da0f8ffe650"
+    },
+    {
+      "experiment_id": "20261028_2326_experience_button_\u8d1f10",
+      "task": "button",
+      "offset_m": -0.1,
+      "native_ever": false,
+      "native_terminal": false,
+      "success": false,
+      "failure": "contact_timeout",
+      "completed": false,
+      "stage_coverage": {
+        "navigation": 380,
+        "settle": 524,
+        "approach": 0,
+        "contact": 1604,
+        "acquire": 0,
+        "lift": 0,
+        "hold": 0,
+        "done": 0
+      },
+      "stage_coverage_all_integrated_suffixes": {
+        "navigation": 380,
+        "settle": 524,
+        "approach": 16,
+        "contact": 4812,
+        "acquire": 0,
+        "lift": 0,
+        "hold": 0,
+        "done": 0
+      },
+      "attempts": [
+        {
+          "branch": 0,
+          "failure": "contact_timeout",
+          "outcome": "task_predicate_failed",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:26:16+08:00",
+          "inherited_prefix_steps": 0,
+          "newly_integrated_steps": 2512,
+          "executed_steps": 2512,
+          "ended_at": "2026-10-28T23:26:31+08:00"
+        },
+        {
+          "branch": 1,
+          "failure": "contact_timeout",
+          "outcome": "task_predicate_failed",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:26:32+08:00",
+          "inherited_prefix_steps": 904,
+          "newly_integrated_steps": 1616,
+          "executed_steps": 2520,
+          "ended_at": "2026-10-28T23:26:42+08:00"
+        },
+        {
+          "branch": 2,
+          "failure": "contact_timeout",
+          "outcome": "task_predicate_failed",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:26:43+08:00",
+          "inherited_prefix_steps": 904,
+          "newly_integrated_steps": 1604,
+          "executed_steps": 2508,
+          "ended_at": "2026-10-28T23:26:52+08:00"
+        }
+      ],
+      "actual_integrated_steps_all_branches": 5732,
+      "recorded_final_branch_steps": 2508,
+      "wrist_tracking_m": {
+        "left": {
+          "rmse": 0.025458524543077465,
+          "p95": 0.0466911348014108,
+          "maximum": 0.05851172038425755
+        },
+        "right": {
+          "rmse": 0.03228183634318676,
+          "p95": 0.06304843793452249,
+          "maximum": 0.0933201526012203
+        }
+      },
+      "wrist_tracking_rad": {
+        "left": {
+          "rmse": 0.21353811035012787,
+          "p95": 0.3073157908202149,
+          "maximum": 0.4004877320016808
+        },
+        "right": {
+          "rmse": 0.21204770676844184,
+          "p95": 0.38687625095263345,
+          "maximum": 0.5328098604429427
+        }
+      },
+      "true_table_contact_peak_N": 938.1223144469645,
+      "all_obstacle_contact_peak_N": 938.1223144469645,
+      "criterion": "button_palm_mesh_v1",
+      "retained_grasp": null,
+      "timing": {
+        "planning_wall_s": 0.10031007137149572,
+        "physics_step_compute_wall_s": 1.987358113285154,
+        "total_execution_wall_s": 36.14130665035918,
+        "simulation_s": 12.54000000000056,
+        "rendering_wall_s": null
+      },
+      "body_hand_audit": {
+        "passed": true,
+        "actual_modes": [
+          1
+        ],
+        "original_token_steps": 0,
+        "trajectory_coverage_checked": true,
+        "body_tokens": 627,
+        "hand_steps": 2508,
+        "post_decoder_override": false,
+        "simulator_warning_count": 0,
+        "recorded_state_continuity": true
+      },
+      "contract_sha256": "b11b3487bfd98a403a12935fcfa9f64ea585d53a210d5dc8287445e947486e23",
+      "frozen_contract_hash_matches": true,
+      "button_approval": {
+        "profile": "button_palm_mesh_v1",
+        "native_success": false,
+        "approved_success": false,
+        "palm_contact_hold_pass": false,
+        "source_execution_envelope": {
+          "passed": false,
+          "selected_contact_peak_N": 0.0,
+          "min_root_height_m": 0.7448197831028696,
+          "max_root_tilt_rad": 0.15878982942173445,
+          "robot_table_peak_N": 938.1223144469645,
+          "limits": {
+            "mujoco_warning": "stop",
+            "nonfinite": "stop",
+            "robot_table_force_N": 50,
+            "root_height_min_m": 0.3,
+            "root_tilt_max_rad": 0.8726646259971648,
+            "selected_contact_force_N": 65
+          },
+          "application": "posthoc acceptance envelope only; does not abort physics"
+        },
+        "native_hold_s": 0.0,
+        "approved_hold_s": 0.0,
+        "thresholds": {
+          "min_downward_force_n": 20.0,
+          "touch_distance_m": 0.001,
+          "min_contact_points": 1,
+          "hold_steps": 50
+        },
+        "physics_steps": 0,
+        "exact_reviewed_palm_geom": 89,
+        "contact_quality_reported_separately": true
+      },
+      "actual_frozen_snapshot_hashes_match": true,
+      "posthoc_script_sha256": "4ce2259708aea4257f1ea5637955efe0a99910e36ac9cab725488da0f8ffe650"
+    },
+    {
+      "experiment_id": "20261028_2326_experience_button_\u6b6310",
+      "task": "button",
+      "offset_m": 0.1,
+      "native_ever": false,
+      "native_terminal": false,
+      "success": false,
+      "failure": "contact_timeout",
+      "completed": false,
+      "stage_coverage": {
+        "navigation": 516,
+        "settle": 120,
+        "approach": 0,
+        "contact": 1604,
+        "acquire": 0,
+        "lift": 0,
+        "hold": 0,
+        "done": 0
+      },
+      "stage_coverage_all_integrated_suffixes": {
+        "navigation": 516,
+        "settle": 120,
+        "approach": 4,
+        "contact": 4812,
+        "acquire": 0,
+        "lift": 0,
+        "hold": 0,
+        "done": 0
+      },
+      "attempts": [
+        {
+          "branch": 0,
+          "failure": "contact_timeout",
+          "outcome": "task_predicate_failed",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:27:03+08:00",
+          "inherited_prefix_steps": 0,
+          "newly_integrated_steps": 2244,
+          "executed_steps": 2244,
+          "ended_at": "2026-10-28T23:27:17+08:00"
+        },
+        {
+          "branch": 1,
+          "failure": "contact_timeout",
+          "outcome": "task_predicate_failed",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:27:18+08:00",
+          "inherited_prefix_steps": 636,
+          "newly_integrated_steps": 1604,
+          "executed_steps": 2240,
+          "ended_at": "2026-10-28T23:27:27+08:00"
+        },
+        {
+          "branch": 2,
+          "failure": "contact_timeout",
+          "outcome": "task_predicate_failed",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:27:28+08:00",
+          "inherited_prefix_steps": 636,
+          "newly_integrated_steps": 1604,
+          "executed_steps": 2240,
+          "ended_at": "2026-10-28T23:27:37+08:00"
+        }
+      ],
+      "actual_integrated_steps_all_branches": 5452,
+      "recorded_final_branch_steps": 2240,
+      "wrist_tracking_m": {
+        "left": {
+          "rmse": 0.02571058619066245,
+          "p95": 0.06187391133826436,
+          "maximum": 0.08615727146283254
+        },
+        "right": {
+          "rmse": 0.029122062015131515,
+          "p95": 0.058246538595257566,
+          "maximum": 0.06660279034036812
+        }
+      },
+      "wrist_tracking_rad": {
+        "left": {
+          "rmse": 0.2585748130342447,
+          "p95": 0.3663444721654457,
+          "maximum": 0.3802036327292271
+        },
+        "right": {
+          "rmse": 0.17323993747675095,
+          "p95": 0.29153938792539597,
+          "maximum": 0.36235476833914365
+        }
+      },
+      "true_table_contact_peak_N": 812.8165276407137,
+      "all_obstacle_contact_peak_N": 812.8165276407137,
+      "criterion": "button_palm_mesh_v1",
+      "retained_grasp": null,
+      "timing": {
+        "planning_wall_s": 0.097586571238935,
+        "physics_step_compute_wall_s": 1.8506110575981438,
+        "total_execution_wall_s": 34.520396396983415,
+        "simulation_s": 11.200000000000351,
+        "rendering_wall_s": null
+      },
+      "body_hand_audit": {
+        "passed": true,
+        "actual_modes": [
+          1
+        ],
+        "original_token_steps": 0,
+        "trajectory_coverage_checked": true,
+        "body_tokens": 560,
+        "hand_steps": 2240,
+        "post_decoder_override": false,
+        "simulator_warning_count": 0,
+        "recorded_state_continuity": true
+      },
+      "contract_sha256": "ae9963cb422190a6d0dc005e8b9c56ca4d81979b19fa019c95df415c8d92554e",
+      "frozen_contract_hash_matches": true,
+      "button_approval": {
+        "profile": "button_palm_mesh_v1",
+        "native_success": false,
+        "approved_success": false,
+        "palm_contact_hold_pass": false,
+        "source_execution_envelope": {
+          "passed": false,
+          "selected_contact_peak_N": 0.0,
+          "min_root_height_m": 0.7617978394533742,
+          "max_root_tilt_rad": 0.168086927759735,
+          "robot_table_peak_N": 812.8165276407137,
+          "limits": {
+            "mujoco_warning": "stop",
+            "nonfinite": "stop",
+            "robot_table_force_N": 50,
+            "root_height_min_m": 0.3,
+            "root_tilt_max_rad": 0.8726646259971648,
+            "selected_contact_force_N": 65
+          },
+          "application": "posthoc acceptance envelope only; does not abort physics"
+        },
+        "native_hold_s": 0.0,
+        "approved_hold_s": 0.0,
+        "thresholds": {
+          "min_downward_force_n": 20.0,
+          "touch_distance_m": 0.001,
+          "min_contact_points": 1,
+          "hold_steps": 50
+        },
+        "physics_steps": 0,
+        "exact_reviewed_palm_geom": 89,
+        "contact_quality_reported_separately": true
+      },
+      "actual_frozen_snapshot_hashes_match": true,
+      "posthoc_script_sha256": "4ce2259708aea4257f1ea5637955efe0a99910e36ac9cab725488da0f8ffe650"
+    },
+    {
+      "experiment_id": "20261028_2327_experience_plate_\u8d1f10",
+      "task": "plate",
+      "offset_m": -0.1,
+      "native_ever": true,
+      "native_terminal": false,
+      "success": false,
+      "failure": "acquire_timeout",
+      "completed": false,
+      "stage_coverage": {
+        "navigation": 396,
+        "settle": 208,
+        "approach": 312,
+        "contact": 868,
+        "acquire": 800,
+        "lift": 0,
+        "hold": 0,
+        "done": 0
+      },
+      "stage_coverage_all_integrated_suffixes": {
+        "navigation": 396,
+        "settle": 208,
+        "approach": 540,
+        "contact": 3052,
+        "acquire": 1600,
+        "lift": 0,
+        "hold": 0,
+        "done": 0
+      },
+      "attempts": [
+        {
+          "branch": 0,
+          "failure": "contact_timeout",
+          "outcome": "no_acquisition",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:27:47+08:00",
+          "inherited_prefix_steps": 0,
+          "newly_integrated_steps": 2356,
+          "executed_steps": 2356,
+          "ended_at": "2026-10-28T23:27:58+08:00"
+        },
+        {
+          "branch": 1,
+          "failure": "acquire_timeout",
+          "outcome": "no_acquisition",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:27:59+08:00",
+          "inherited_prefix_steps": 604,
+          "newly_integrated_steps": 1460,
+          "executed_steps": 2064,
+          "ended_at": "2026-10-28T23:28:05+08:00"
+        },
+        {
+          "branch": 2,
+          "failure": "acquire_timeout",
+          "outcome": "no_acquisition",
+          "native_ever": true,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:28:06+08:00",
+          "inherited_prefix_steps": 604,
+          "newly_integrated_steps": 1980,
+          "executed_steps": 2584,
+          "ended_at": "2026-10-28T23:28:15+08:00"
+        }
+      ],
+      "actual_integrated_steps_all_branches": 5796,
+      "recorded_final_branch_steps": 2584,
+      "wrist_tracking_m": {
+        "left": {
+          "rmse": 0.039577768185896874,
+          "p95": 0.08022707791402474,
+          "maximum": 0.10268647211124604
+        },
+        "right": {
+          "rmse": 0.043063545230520445,
+          "p95": 0.0752768525942665,
+          "maximum": 0.08378027038650622
+        }
+      },
+      "wrist_tracking_rad": {
+        "left": {
+          "rmse": 0.270163009216794,
+          "p95": 0.5694884464251112,
+          "maximum": 0.6320858789148529
+        },
+        "right": {
+          "rmse": 0.2884951604923379,
+          "p95": 0.5115237493724263,
+          "maximum": 0.5931937613892005
+        }
+      },
+      "true_table_contact_peak_N": 248.2725318827156,
+      "all_obstacle_contact_peak_N": 248.2725318827156,
+      "criterion": "native",
+      "retained_grasp": false,
+      "timing": {
+        "planning_wall_s": 0.09661447489634156,
+        "physics_step_compute_wall_s": 2.9186496105976403,
+        "total_execution_wall_s": 28.07258169306442,
+        "simulation_s": 12.92000000000062,
+        "rendering_wall_s": null
+      },
+      "body_hand_audit": {
+        "passed": true,
+        "actual_modes": [
+          1
+        ],
+        "original_token_steps": 0,
+        "trajectory_coverage_checked": true,
+        "body_tokens": 646,
+        "hand_steps": 2584,
+        "post_decoder_override": false,
+        "simulator_warning_count": 0,
+        "recorded_state_continuity": true
+      },
+      "contract_sha256": "c73b5bcac3e004b6b0acb1ec4b5ef4f45472fde9c234c15e937fc1ec197cb4af",
+      "frozen_contract_hash_matches": true,
+      "actual_frozen_snapshot_hashes_match": true,
+      "posthoc_script_sha256": "4ce2259708aea4257f1ea5637955efe0a99910e36ac9cab725488da0f8ffe650"
+    },
+    {
+      "experiment_id": "20261028_2328_experience_plate_\u6b6310",
+      "task": "plate",
+      "offset_m": 0.1,
+      "native_ever": false,
+      "native_terminal": false,
+      "success": false,
+      "failure": "lift_timeout",
+      "completed": false,
+      "stage_coverage": {
+        "navigation": 624,
+        "settle": 724,
+        "approach": 148,
+        "contact": 16,
+        "acquire": 624,
+        "lift": 1604,
+        "hold": 0,
+        "done": 0
+      },
+      "stage_coverage_all_integrated_suffixes": {
+        "navigation": 624,
+        "settle": 724,
+        "approach": 444,
+        "contact": 48,
+        "acquire": 1872,
+        "lift": 4812,
+        "hold": 0,
+        "done": 0
+      },
+      "attempts": [
+        {
+          "branch": 0,
+          "failure": "lift_timeout",
+          "outcome": "insufficient_lift",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:28:21+08:00",
+          "inherited_prefix_steps": 0,
+          "newly_integrated_steps": 3740,
+          "executed_steps": 3740,
+          "ended_at": "2026-10-28T23:28:38+08:00"
+        },
+        {
+          "branch": 1,
+          "failure": "lift_timeout",
+          "outcome": "insufficient_lift",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:28:40+08:00",
+          "inherited_prefix_steps": 1348,
+          "newly_integrated_steps": 2392,
+          "executed_steps": 3740,
+          "ended_at": "2026-10-28T23:28:50+08:00"
+        },
+        {
+          "branch": 2,
+          "failure": "lift_timeout",
+          "outcome": "insufficient_lift",
+          "native_ever": false,
+          "native_terminal": false,
+          "started_at": "2026-10-28T23:28:52+08:00",
+          "inherited_prefix_steps": 1348,
+          "newly_integrated_steps": 2392,
+          "executed_steps": 3740,
+          "ended_at": "2026-10-28T23:29:03+08:00"
+        }
+      ],
+      "actual_integrated_steps_all_branches": 8524,
+      "recorded_final_branch_steps": 3740,
+      "wrist_tracking_m": {
+        "left": {
+          "rmse": 0.08995905936306095,
+          "p95": 0.124505814360476,
+          "maximum": 0.1316111735852698
+        },
+        "right": {
+          "rmse": 0.03081033570010779,
+          "p95": 0.046772424596734585,
+          "maximum": 0.061487208135557136
+        }
+      },
+      "wrist_tracking_rad": {
+        "left": {
+          "rmse": 0.6554924029617853,
+          "p95": 0.9696944320043437,
+          "maximum": 1.0009700813685583
+        },
+        "right": {
+          "rmse": 0.26860163648735885,
+          "p95": 0.3618637058513883,
+          "maximum": 0.38809009977318454
+        }
+      },
+      "true_table_contact_peak_N": 298.06401502218614,
+      "all_obstacle_contact_peak_N": 298.06401502218614,
+      "criterion": "native",
+      "retained_grasp": false,
+      "timing": {
+        "planning_wall_s": 0.13762236898764968,
+        "physics_step_compute_wall_s": 4.585272251628339,
+        "total_execution_wall_s": 43.25678530195728,
+        "simulation_s": 18.700000000000564,
+        "rendering_wall_s": null
+      },
+      "body_hand_audit": {
+        "passed": true,
+        "actual_modes": [
+          1
+        ],
+        "original_token_steps": 0,
+        "trajectory_coverage_checked": true,
+        "body_tokens": 935,
+        "hand_steps": 3740,
+        "post_decoder_override": false,
+        "simulator_warning_count": 0,
+        "recorded_state_continuity": true
+      },
+      "contract_sha256": "f3e6819a4ba9553e25848534776a3e5a362d604aee9830b8e32ef2b917a4af0c",
+      "frozen_contract_hash_matches": true,
+      "actual_frozen_snapshot_hashes_match": true,
+      "posthoc_script_sha256": "4ce2259708aea4257f1ea5637955efe0a99910e36ac9cab725488da0f8ffe650"
+    }
+  ]
+}

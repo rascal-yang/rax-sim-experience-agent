@@ -1,0 +1,283 @@
+{
+  "button_limits": {
+    "mujoco_warning": "stop",
+    "nonfinite": "stop",
+    "robot_table_force_N": 50,
+    "root_height_min_m": 0.3,
+    "root_tilt_max_rad": 0.8726646259971648,
+    "selected_contact_force_N": 65
+  },
+  "button_selected_names": [
+    "right_wrist_roll_link",
+    "right_wrist_pitch_link",
+    "right_wrist_yaw_link",
+    "right_hand_thumb_0_link",
+    "right_hand_thumb_1_link",
+    "right_hand_thumb_2_link",
+    "right_hand_middle_0_link",
+    "right_hand_middle_1_link",
+    "right_hand_index_0_link",
+    "right_hand_index_1_link"
+  ],
+  "schema_version": 2,
+  "task": "button",
+  "poses": {
+    "approach": {
+      "left": [
+        -0.050184972539832395,
+        0.17634953841257345,
+        0.1834142815267601,
+        0.9676662754048572,
+        -0.20561574581171074,
+        0.14170186095929344,
+        0.035563002109759934
+      ],
+      "right": [
+        -0.10802870361230954,
+        -0.07645669952986572,
+        0.22456138949740045,
+        0.7891796826760857,
+        -0.5623176480358643,
+        0.16860699099476728,
+        0.18046044925793828
+      ],
+      "torso": [
+        -0.25135821804885927,
+        0.06903021136683402,
+        0.1862595401590068,
+        0.9933375545724276,
+        -0.013298703629503873,
+        0.07726266331946967,
+        -0.08446376746644824
+      ]
+    },
+    "contact": {
+      "left": [
+        -0.0612251048111595,
+        0.2403623812374051,
+        0.16825277238121827,
+        0.978877216672817,
+        -0.09476118725258378,
+        0.17252310425179043,
+        0.055276492007759206
+      ],
+      "right": [
+        -0.07701457896171904,
+        -0.04988808855474314,
+        0.13847870002529072,
+        0.8151557510733295,
+        -0.4941769803851088,
+        0.21276127734287043,
+        0.21457598284281804
+      ],
+      "torso": [
+        -0.2540848578519116,
+        0.08493344009301763,
+        0.18795974875849997,
+        0.9952091696981646,
+        -0.023095878981911306,
+        0.08828808225480929,
+        -0.03507853267326813
+      ]
+    },
+    "lift": {
+      "left": [
+        -0.0612251048111595,
+        0.2403623812374051,
+        0.16825277238121827,
+        0.978877216672817,
+        -0.09476118725258378,
+        0.17252310425179043,
+        0.055276492007759206
+      ],
+      "right": [
+        -0.07701457896171904,
+        -0.04988808855474314,
+        0.13847870002529072,
+        0.8151557510733295,
+        -0.4941769803851088,
+        0.21276127734287043,
+        0.21457598284281804
+      ],
+      "torso": [
+        -0.2540848578519116,
+        0.08493344009301763,
+        0.18795974875849997,
+        0.9952091696981646,
+        -0.023095878981911306,
+        0.08828808225480929,
+        -0.03507853267326813
+      ]
+    }
+  },
+  "stance": [
+    -0.25515973479046394,
+    0.06925424686323683,
+    0.0
+  ],
+  "height": 0.7822632727728135,
+  "seated_height": 0.7840229135988699,
+  "open": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "closed": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.550000011920929,
+    0.550000011920929
+  ],
+  "contact_fingers": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.550000011920929,
+    0.550000011920929
+  ],
+  "active": [
+    "right"
+  ],
+  "source_access": "keyframes_only",
+  "extraction_evidence": {
+    "source_manifest": "/home/kinetra-4090-01/code/zijian/cap-sim-api-augmentation/humanoid_mimicgen/workflow/tests/fixtures/navigation/button.json",
+    "source_manifest_sha256": "d040ed428862ca1ac4fbe1619dd09fa3888fd78f3eacb3ce477879f19223b599",
+    "source_interval": [
+      872,
+      1783
+    ],
+    "hand_alignment": "actual controller timestamps; sample-and-hold",
+    "phase_selection": "last supported measured hand contact before native success, and native-success object-height peak for grasps; native seat contact for chair; approved source peak selected force for button",
+    "phases": {
+      "approach": {
+        "source_row": 872,
+        "state_time_s": 6.3649999999998865,
+        "controller_index": 218,
+        "controller_time_s": 6.3649999999998865,
+        "object_xyz": [
+          -0.27,
+          -0.06,
+          0.65
+        ],
+        "hand_object_N": null,
+        "robot_object_N": null,
+        "support_N": null,
+        "native_success": null,
+        "selected_contact_force_N": null
+      },
+      "contact": {
+        "source_row": 1072,
+        "state_time_s": 7.364999999999865,
+        "controller_index": 268,
+        "controller_time_s": 7.364999999999865,
+        "object_xyz": [
+          -0.27,
+          -0.06,
+          0.65
+        ],
+        "hand_object_N": 0.0,
+        "robot_object_N": 43.9864951140017,
+        "support_N": 0.0,
+        "native_success": false,
+        "selected_contact_force_N": 43.9864951140017
+      },
+      "lift": {
+        "source_row": 1072,
+        "state_time_s": 7.364999999999865,
+        "controller_index": 268,
+        "controller_time_s": 7.364999999999865,
+        "object_xyz": [
+          -0.27,
+          -0.06,
+          0.65
+        ],
+        "hand_object_N": 0.0,
+        "robot_object_N": 43.9864951140017,
+        "support_N": 0.0,
+        "native_success": false,
+        "selected_contact_force_N": 43.9864951140017
+      }
+    },
+    "proof_object_displacement_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "proof_wrist_displacement_world_m": {
+      "right": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "provenance": {
+    "original_actions_visible_during_extraction": true,
+    "original_actions_visible_during_execution": false,
+    "source_sha256": {
+      "/home/kinetra-4090-01/code/zijian/cap-sim-api-augmentation/humanoid_mimicgen/workflow/tests/fixtures/navigation/button.json": "d040ed428862ca1ac4fbe1619dd09fa3888fd78f3eacb3ce477879f19223b599",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/button/verify_full/experiments/20261025_1656_tablebuttonpress_token_prefix_mode1/scene.mjb": "d98ce7f2c234b6da5891ed7e20f3ec2f153dd30b9dc7a089d0b6fadb1bb78c24",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/button/verify_full/experiments/20261025_1656_tablebuttonpress_token_prefix_mode1/execution/trajectory.npz": "e478ac2b1b676e602507de5d7e097967d8b5a75a3e4d3fb1a7236c3050e0c7ce",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/button/verify_full/experiments/20261025_1656_tablebuttonpress_token_prefix_mode1/result.json": "f3700ee8e76a6fd6de2ebcb6260e37031934efa8e7067f4fcfb672bb53f17922",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/button/verify_full/experiments/20261025_1656_tablebuttonpress_token_prefix_mode1/execution/hand_commands.npz": "37540c2b603236f70780e990308dbc2be7519693fe5fca5942e4bd50c9022fd1",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/button/verify_full/experiments/20261025_1656_tablebuttonpress_token_prefix_mode1/execution/controller.npz": "8bc4761addd2a7f2956a9efd3f6676338cd7c8a73f5993977652f9055fff4f12",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/button/verify_full/experiments/20261025_1656_tablebuttonpress_token_prefix_mode1/execution/metrics.json": "acbe62f236ca62495e11935af78c96545ef9a71eb317ebcb2e0ede9221832734",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/button/verify_full/experiments/20261025_1656_tablebuttonpress_token_prefix_mode1/execution/benchmark_button_acceptance.json": "f0d4658a1bc33d2e17bfb75da1dee2ecbdb87b2c32067dc10b0707f0ed24ad80"
+    },
+    "reference_baseline": "historical trajectory retargeting; not a paired controller comparison"
+  },
+  "bindings": {
+    "object": "button002_base",
+    "root_body": "pelvis",
+    "feet": [
+      "left_ankle_roll_link",
+      "right_ankle_roll_link"
+    ],
+    "ground_geoms": [
+      "ground"
+    ],
+    "support_geoms": [
+      "table_geom"
+    ],
+    "frame": {
+      "kind": "world_heading",
+      "yaw_rad": 0.0,
+      "evidence": "Archived fixed scene world X; new scene must explicitly supply surface heading"
+    },
+    "operation_bodies": [
+      "right_wrist_yaw_link"
+    ],
+    "contact_policy": []
+  },
+  "acceptance": "button_palm_mesh_v1"
+}

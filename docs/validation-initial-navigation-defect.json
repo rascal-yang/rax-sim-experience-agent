@@ -1,0 +1,102 @@
+{
+  "started_at": "2026-10-28T23:08:30+08:00",
+  "ended_at": "2026-10-28T23:10:06+08:00",
+  "conditions": [
+    {
+      "case": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2308_experience_chair_负10",
+      "task": "chair",
+      "offset_m": -0.1,
+      "result": {
+        "experiment_id": "20261028_2308_experience_chair_负10",
+        "started_at": "2026-10-28T23:08:40+08:00",
+        "ended_at": "2026-10-28T23:09:20+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:09:17+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false
+        },
+        "physics_steps": 8996,
+        "timing": {
+          "planning_wall_s": 0.1404220750555396,
+          "simulation_compute_wall_s": 2.4822676447220147,
+          "total_execution_wall_s": 39.95119239529595,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      }
+    },
+    {
+      "case": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2309_experience_chair_正10",
+      "task": "chair",
+      "offset_m": 0.1,
+      "result": {
+        "experiment_id": "20261028_2309_experience_chair_正10",
+        "started_at": "2026-10-28T23:09:25+08:00",
+        "ended_at": "2026-10-28T23:10:06+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:10:04+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false
+        },
+        "physics_steps": 8996,
+        "timing": {
+          "planning_wall_s": 0.1428010929375887,
+          "simulation_compute_wall_s": 2.4911913573741913,
+          "total_execution_wall_s": 41.19786035362631,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      }
+    }
+  ]
+}

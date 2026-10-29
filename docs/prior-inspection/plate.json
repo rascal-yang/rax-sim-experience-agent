@@ -1,0 +1,269 @@
+{
+  "schema_version": 2,
+  "task": "plate",
+  "poses": {
+    "approach": {
+      "left": [
+        -0.3047569008502402,
+        0.26937870187101276,
+        0.08629948228148288,
+        0.8778650150156795,
+        -0.34823689199938657,
+        0.3268632662068809,
+        0.03527729676007467
+      ],
+      "right": [
+        -0.2926608584543814,
+        -0.09301094698738319,
+        0.08792680364992145,
+        0.7989798322208268,
+        0.5370135967820909,
+        0.2571424928928939,
+        -0.08441186483172505
+      ],
+      "torso": [
+        -0.34457188693629226,
+        0.08882701432879793,
+        0.17112007417263553,
+        0.998709028811839,
+        -0.0036359910522288197,
+        -0.0064346101145047446,
+        0.050255856688107066
+      ]
+    },
+    "contact": {
+      "left": [
+        -0.29426570726396334,
+        0.24966703446711647,
+        0.08273691717845943,
+        0.8767285910548207,
+        -0.32196397052749487,
+        0.3572214124316089,
+        0.008890546078068925
+      ],
+      "right": [
+        -0.2659819498618193,
+        -0.11071215900775465,
+        0.09298941299853725,
+        0.8350521205307067,
+        0.4799934354528944,
+        0.26237877236326046,
+        -0.058750640272655974
+      ],
+      "torso": [
+        -0.32415578624467406,
+        0.07528763035713282,
+        0.16638786096498615,
+        0.9989535161771809,
+        -0.00989620637566234,
+        0.031392811082152444,
+        0.031755771585292046
+      ]
+    },
+    "lift": {
+      "left": [
+        -0.23708255004201173,
+        0.2026771572195199,
+        0.07072908415506785,
+        0.7798432678771083,
+        -0.4804529317179206,
+        0.40052709492692307,
+        -0.024238485509768315
+      ],
+      "right": [
+        -0.22739562231084892,
+        -0.08539622359634881,
+        0.07137038922711125,
+        0.778198310496252,
+        0.49596586382684293,
+        0.38525666069322806,
+        -0.001599015564613837
+      ],
+      "torso": [
+        -0.34277705864289626,
+        0.06469990167937945,
+        0.16676595985047848,
+        0.9992896117925436,
+        0.00040465999932142187,
+        0.026415962142260975,
+        0.026875731764790554
+      ]
+    }
+  },
+  "stance": [
+    -0.33998714059803903,
+    0.08879989445989953,
+    0.0
+  ],
+  "height": 0.7796638058896918,
+  "seated_height": 0.7836792419011207,
+  "open": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "closed": [
+    0.0,
+    0.699999988079071,
+    0.699999988079071,
+    -0.8805147409439087,
+    -1.3035715818405151,
+    -0.9816937446594238,
+    -1.351983904838562,
+    0.0,
+    -0.699999988079071,
+    -0.699999988079071,
+    0.8839357495307922,
+    1.3701788187026978,
+    0.9389852285385132,
+    1.4338268041610718
+  ],
+  "contact_fingers": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "active": [
+    "left",
+    "right"
+  ],
+  "source_access": "keyframes_only",
+  "extraction_evidence": {
+    "source_manifest": "/home/kinetra-4090-01/code/zijian/cap-sim-api-augmentation/humanoid_mimicgen/workflow/tests/fixtures/navigation/plate.json",
+    "source_manifest_sha256": "e1329231fdbaa48bdb4d8fc66b91e287ac3070ebd9f3cb659d42074cbccdeeda",
+    "source_interval": [
+      844,
+      2331
+    ],
+    "hand_alignment": "actual controller timestamps; sample-and-hold",
+    "phase_selection": "last supported measured hand contact before native success, and native-success object-height peak for grasps; native seat contact for chair; approved source peak selected force for button",
+    "phases": {
+      "approach": {
+        "source_row": 844,
+        "state_time_s": 6.2249999999998895,
+        "controller_index": 211,
+        "controller_time_s": 6.2249999999998895,
+        "object_xyz": [
+          -0.2700014486127782,
+          -0.05999638487485636,
+          0.6624945122984485
+        ],
+        "hand_object_N": null,
+        "robot_object_N": null,
+        "support_N": null,
+        "native_success": null,
+        "selected_contact_force_N": null
+      },
+      "contact": {
+        "source_row": 1008,
+        "state_time_s": 7.044999999999872,
+        "controller_index": 252,
+        "controller_time_s": 7.044999999999872,
+        "object_xyz": [
+          -0.24884612695600078,
+          -0.0617336752319277,
+          0.671022711821822
+        ],
+        "hand_object_N": 0.2633637207988957,
+        "robot_object_N": 0.2633637207988957,
+        "support_N": 0.4953367710269278,
+        "native_success": false,
+        "selected_contact_force_N": 0.2633637207988957
+      },
+      "lift": {
+        "source_row": 2331,
+        "state_time_s": 13.660000000000736,
+        "controller_index": 582,
+        "controller_time_s": 13.645000000000733,
+        "object_xyz": [
+          -0.2682157768210803,
+          -0.05463351012841881,
+          0.7798470896641525
+        ],
+        "hand_object_N": 19.18912690352958,
+        "robot_object_N": 19.18912690352958,
+        "support_N": 0.0,
+        "native_success": true,
+        "selected_contact_force_N": 19.18912690352958
+      }
+    },
+    "proof_object_displacement_m": [
+      -0.019369649865079497,
+      0.0071001651035088945,
+      0.10882437784233046
+    ],
+    "proof_wrist_displacement_world_m": {
+      "left": [
+        0.05718315722195161,
+        -0.04698987724759657,
+        -0.01200783302339159
+      ],
+      "right": [
+        0.038586327550970356,
+        0.025315935411405838,
+        -0.021619023771425994
+      ]
+    }
+  },
+  "provenance": {
+    "original_actions_visible_during_extraction": true,
+    "original_actions_visible_during_execution": false,
+    "source_sha256": {
+      "/home/kinetra-4090-01/code/zijian/cap-sim-api-augmentation/humanoid_mimicgen/workflow/tests/fixtures/navigation/plate.json": "e1329231fdbaa48bdb4d8fc66b91e287ac3070ebd9f3cb659d42074cbccdeeda",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_0057_api_contact_strategy_other_tasks/G1WholebodyTablePlatePickTeleop/attempt_00/experiments/20261025_0107_tableplatepick_token_prefix_mode1/scene.mjb": "1bd514b810c9cd7b2fcd129f76a15f7329bcb915969401f93b75d86708c2d797",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_0057_api_contact_strategy_other_tasks/G1WholebodyTablePlatePickTeleop/attempt_00/experiments/20261025_0107_tableplatepick_token_prefix_mode1/execution/trajectory.npz": "7b6cb88385296295e75e96a02fd0607c0442bd34597bcbbaaa8a1fee5f7561d6",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_0057_api_contact_strategy_other_tasks/G1WholebodyTablePlatePickTeleop/attempt_00/experiments/20261025_0107_tableplatepick_token_prefix_mode1/result.json": "2d7f7e08e35c93ec3eca1934519323b93ca0067fe3b800c4b660839a4fd55523",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_0057_api_contact_strategy_other_tasks/G1WholebodyTablePlatePickTeleop/attempt_00/experiments/20261025_0107_tableplatepick_token_prefix_mode1/execution/hand_commands.npz": "3abc2ab8ae5ea95bc8bec56cd64afed430c5bf75d2a8b697381b8a0a3e73c543",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_0057_api_contact_strategy_other_tasks/G1WholebodyTablePlatePickTeleop/attempt_00/experiments/20261025_0107_tableplatepick_token_prefix_mode1/execution/controller.npz": "17e533944c61fc00960eabf327efecdbbeafabae783f87e357f91bbc2fb57a89",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_0057_api_contact_strategy_other_tasks/G1WholebodyTablePlatePickTeleop/attempt_00/experiments/20261025_0107_tableplatepick_token_prefix_mode1/execution/metrics.json": "d7b4075d8eac85e5171bbd6afb05942ae520b580cd0f6eab43e072b20e67840b"
+    },
+    "reference_baseline": "historical trajectory retargeting; not a paired controller comparison"
+  },
+  "bindings": {
+    "object": "plate_3",
+    "root_body": "pelvis",
+    "feet": [
+      "left_ankle_roll_link",
+      "right_ankle_roll_link"
+    ],
+    "ground_geoms": [
+      "ground"
+    ],
+    "support_geoms": [
+      "table_geom"
+    ],
+    "frame": {
+      "kind": "world_heading",
+      "yaw_rad": 0.0,
+      "evidence": "Archived fixed scene world X; new scene must explicitly supply surface heading"
+    },
+    "operation_bodies": [
+      "left_wrist_yaw_link",
+      "right_wrist_yaw_link"
+    ],
+    "contact_policy": []
+  },
+  "acceptance": "native"
+}

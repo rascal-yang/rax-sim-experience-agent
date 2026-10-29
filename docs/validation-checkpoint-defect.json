@@ -1,0 +1,166 @@
+{
+  "started_at": "2026-10-28T23:11:43+08:00",
+  "ended_at": "2026-10-28T23:14:21+08:00",
+  "conditions": [
+    {
+      "case": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2311_experience_chair_负10",
+      "task": "chair",
+      "offset_m": -0.1,
+      "result": {
+        "experiment_id": "20261028_2311_experience_chair_负10",
+        "started_at": "2026-10-28T23:11:52+08:00",
+        "ended_at": "2026-10-28T23:12:33+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:11:52+08:00",
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:12:30+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 8996,
+        "actual_integrated_steps_all_branches": 8996,
+        "stage_coverage": {
+          "navigation": 8996,
+          "settle": 0,
+          "approach": 0,
+          "contact": 0,
+          "acquire": 0,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.14131734054535627,
+          "physics_step_compute_wall_s": 3.5715332818217576,
+          "total_execution_wall_s": 40.63895727600902,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      }
+    },
+    {
+      "case": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2312_experience_chair_正10",
+      "task": "chair",
+      "offset_m": 0.1,
+      "result": {
+        "experiment_id": "20261028_2312_experience_chair_正10",
+        "started_at": "2026-10-28T23:12:38+08:00",
+        "ended_at": "2026-10-28T23:13:19+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:12:38+08:00",
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:13:16+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 8996,
+        "actual_integrated_steps_all_branches": 8996,
+        "stage_coverage": {
+          "navigation": 8996,
+          "settle": 0,
+          "approach": 0,
+          "contact": 0,
+          "acquire": 0,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.25863270927220583,
+          "physics_step_compute_wall_s": 3.611875664908439,
+          "total_execution_wall_s": 40.856054672040045,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      }
+    },
+    {
+      "case": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_apple_负10",
+      "task": "apple",
+      "offset_m": -0.1,
+      "error": "TypeError(\"cannot pickle '_thread.lock' object\")"
+    },
+    {
+      "case": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_apple_正10",
+      "task": "apple",
+      "offset_m": 0.1,
+      "error": "TypeError(\"cannot pickle '_thread.lock' object\")"
+    },
+    {
+      "case": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_button_负10",
+      "task": "button",
+      "offset_m": -0.1,
+      "error": "TypeError(\"cannot pickle '_thread.lock' object\")"
+    },
+    {
+      "case": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_button_正10",
+      "task": "button",
+      "offset_m": 0.1,
+      "error": "TypeError(\"cannot pickle '_thread.lock' object\")"
+    },
+    {
+      "case": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2314_experience_plate_负10",
+      "task": "plate",
+      "offset_m": -0.1,
+      "error": "TypeError(\"cannot pickle '_thread.lock' object\")"
+    },
+    {
+      "case": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2314_experience_plate_正10",
+      "task": "plate",
+      "offset_m": 0.1,
+      "error": "TypeError(\"cannot pickle '_thread.lock' object\")"
+    }
+  ]
+}

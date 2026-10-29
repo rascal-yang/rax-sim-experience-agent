@@ -1,0 +1,242 @@
+[
+  {
+    "experiment_id": "20261028_2307_experience_chair_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2307_experience_chair_负10",
+    "frozen_contract": false,
+    "result_path": null,
+    "started_at": null,
+    "ended_at": null,
+    "failure": "prephysics preparation failure",
+    "actual_integrated_steps": 0
+  },
+  {
+    "experiment_id": "20261028_2308_experience_chair_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2308_experience_chair_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2308_experience_chair_负10/result.json",
+    "started_at": "2026-10-28T23:08:40+08:00",
+    "ended_at": "2026-10-28T23:09:20+08:00",
+    "failure": "navigation_timeout",
+    "actual_integrated_steps": 8996
+  },
+  {
+    "experiment_id": "20261028_2309_experience_chair_正10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2309_experience_chair_正10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2309_experience_chair_正10/result.json",
+    "started_at": "2026-10-28T23:09:25+08:00",
+    "ended_at": "2026-10-28T23:10:06+08:00",
+    "failure": "navigation_timeout",
+    "actual_integrated_steps": 8996
+  },
+  {
+    "experiment_id": "20261028_2310_experience_apple_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2310_experience_apple_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2310_experience_apple_负10/result.json",
+    "started_at": "2026-10-28T23:10:13+08:00",
+    "ended_at": "2026-10-28T23:10:41+08:00",
+    "failure": null,
+    "actual_integrated_steps": 6960
+  },
+  {
+    "experiment_id": "20261028_2311_experience_chair_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2311_experience_chair_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2311_experience_chair_负10/result.json",
+    "started_at": "2026-10-28T23:11:52+08:00",
+    "ended_at": "2026-10-28T23:12:33+08:00",
+    "failure": "navigation_timeout",
+    "actual_integrated_steps": 8996
+  },
+  {
+    "experiment_id": "20261028_2312_experience_chair_正10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2312_experience_chair_正10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2312_experience_chair_正10/result.json",
+    "started_at": "2026-10-28T23:12:38+08:00",
+    "ended_at": "2026-10-28T23:13:19+08:00",
+    "failure": "navigation_timeout",
+    "actual_integrated_steps": 8996
+  },
+  {
+    "experiment_id": "20261028_2313_experience_apple_正10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_apple_正10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_apple_正10/result.json",
+    "started_at": "2026-10-28T23:13:35+08:00",
+    "ended_at": "2026-10-28T23:13:38+08:00",
+    "failure": "execution_error:TypeError:cannot pickle '_thread.lock' object",
+    "actual_integrated_steps": 692
+  },
+  {
+    "experiment_id": "20261028_2313_experience_apple_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_apple_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_apple_负10/result.json",
+    "started_at": "2026-10-28T23:13:25+08:00",
+    "ended_at": "2026-10-28T23:13:29+08:00",
+    "failure": "execution_error:TypeError:cannot pickle '_thread.lock' object",
+    "actual_integrated_steps": 1088
+  },
+  {
+    "experiment_id": "20261028_2313_experience_button_正10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_button_正10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_button_正10/result.json",
+    "started_at": "2026-10-28T23:13:58+08:00",
+    "ended_at": "2026-10-28T23:14:02+08:00",
+    "failure": "execution_error:TypeError:cannot pickle '_thread.lock' object",
+    "actual_integrated_steps": 636
+  },
+  {
+    "experiment_id": "20261028_2313_experience_button_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_button_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2313_experience_button_负10/result.json",
+    "started_at": "2026-10-28T23:13:45+08:00",
+    "ended_at": "2026-10-28T23:13:51+08:00",
+    "failure": "execution_error:TypeError:cannot pickle '_thread.lock' object",
+    "actual_integrated_steps": 1016
+  },
+  {
+    "experiment_id": "20261028_2314_experience_plate_正10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2314_experience_plate_正10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2314_experience_plate_正10/result.json",
+    "started_at": "2026-10-28T23:14:17+08:00",
+    "ended_at": "2026-10-28T23:14:21+08:00",
+    "failure": "execution_error:TypeError:cannot pickle '_thread.lock' object",
+    "actual_integrated_steps": 940
+  },
+  {
+    "experiment_id": "20261028_2314_experience_plate_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2314_experience_plate_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2314_experience_plate_负10/result.json",
+    "started_at": "2026-10-28T23:14:08+08:00",
+    "ended_at": "2026-10-28T23:14:12+08:00",
+    "failure": "execution_error:TypeError:cannot pickle '_thread.lock' object",
+    "actual_integrated_steps": 912
+  },
+  {
+    "experiment_id": "20261028_2323_experience_chair_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2323_experience_chair_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2323_experience_chair_负10/result.json",
+    "started_at": "2026-10-28T23:23:45+08:00",
+    "ended_at": "2026-10-28T23:24:26+08:00",
+    "failure": "navigation_timeout",
+    "actual_integrated_steps": 8996
+  },
+  {
+    "experiment_id": "20261028_2324_experience_chair_正10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2324_experience_chair_正10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2324_experience_chair_正10/result.json",
+    "started_at": "2026-10-28T23:24:31+08:00",
+    "ended_at": "2026-10-28T23:25:13+08:00",
+    "failure": "navigation_timeout",
+    "actual_integrated_steps": 8996
+  },
+  {
+    "experiment_id": "20261028_2325_experience_apple_正10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2325_experience_apple_正10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2325_experience_apple_正10/result.json",
+    "started_at": "2026-10-28T23:25:47+08:00",
+    "ended_at": "2026-10-28T23:26:11+08:00",
+    "failure": "lift_timeout",
+    "actual_integrated_steps": 5184
+  },
+  {
+    "experiment_id": "20261028_2325_experience_apple_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2325_experience_apple_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2325_experience_apple_负10/result.json",
+    "started_at": "2026-10-28T23:25:19+08:00",
+    "ended_at": "2026-10-28T23:25:42+08:00",
+    "failure": "acquire_timeout",
+    "actual_integrated_steps": 4996
+  },
+  {
+    "experiment_id": "20261028_2326_experience_button_正10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2326_experience_button_正10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2326_experience_button_正10/result.json",
+    "started_at": "2026-10-28T23:27:03+08:00",
+    "ended_at": "2026-10-28T23:27:38+08:00",
+    "failure": "contact_timeout",
+    "actual_integrated_steps": 5452
+  },
+  {
+    "experiment_id": "20261028_2326_experience_button_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2326_experience_button_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2326_experience_button_负10/result.json",
+    "started_at": "2026-10-28T23:26:16+08:00",
+    "ended_at": "2026-10-28T23:26:52+08:00",
+    "failure": "contact_timeout",
+    "actual_integrated_steps": 5732
+  },
+  {
+    "experiment_id": "20261028_2327_experience_plate_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2327_experience_plate_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2327_experience_plate_负10/result.json",
+    "started_at": "2026-10-28T23:27:47+08:00",
+    "ended_at": "2026-10-28T23:28:15+08:00",
+    "failure": "acquire_timeout",
+    "actual_integrated_steps": 5796
+  },
+  {
+    "experiment_id": "20261028_2328_experience_plate_正10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2328_experience_plate_正10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2328_experience_plate_正10/result.json",
+    "started_at": "2026-10-28T23:28:21+08:00",
+    "ended_at": "2026-10-28T23:29:04+08:00",
+    "failure": "lift_timeout",
+    "actual_integrated_steps": 8524
+  },
+  {
+    "experiment_id": "20261028_2332_experience_chair_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2332_experience_chair_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2332_experience_chair_负10/result.json",
+    "started_at": "2026-10-28T23:33:00+08:00",
+    "ended_at": "2026-10-28T23:33:49+08:00",
+    "failure": "navigation_timeout",
+    "actual_integrated_steps": 8996
+  },
+  {
+    "experiment_id": "20261028_2333_experience_chair_正10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2333_experience_chair_正10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2333_experience_chair_正10/result.json",
+    "started_at": "2026-10-28T23:33:55+08:00",
+    "ended_at": "2026-10-28T23:34:44+08:00",
+    "failure": "navigation_timeout",
+    "actual_integrated_steps": 8996
+  },
+  {
+    "experiment_id": "20261028_2334_experience_apple_负10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2334_experience_apple_负10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2334_experience_apple_负10/result.json",
+    "started_at": "2026-10-28T23:34:51+08:00",
+    "ended_at": "2026-10-28T23:35:08+08:00",
+    "failure": "acquire_timeout",
+    "actual_integrated_steps": 3108
+  },
+  {
+    "experiment_id": "20261028_2335_experience_apple_正10",
+    "path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2335_experience_apple_正10",
+    "frozen_contract": true,
+    "result_path": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2335_experience_apple_正10/result.json",
+    "started_at": "2026-10-28T23:35:14+08:00",
+    "ended_at": "2026-10-28T23:35:18+08:00",
+    "failure": "interrupted",
+    "actual_integrated_steps": 756
+  }
+]

@@ -1,0 +1,373 @@
+{
+  "schema_version": 2,
+  "task": "apple",
+  "poses": {
+    "approach": {
+      "left": [
+        -0.04480549532108724,
+        0.2699913974841922,
+        0.18757663930327373,
+        0.9948060244927586,
+        -0.03700418737181171,
+        0.0030960184037538314,
+        0.0947738277158206
+      ],
+      "right": [
+        -0.08054032236377373,
+        -0.10729354249680093,
+        0.1456818862620155,
+        0.8900567704971527,
+        -0.3253302813741471,
+        0.26310589683836166,
+        0.18092661595817805
+      ],
+      "torso": [
+        -0.23542334963995382,
+        0.08237806103199538,
+        0.15924467434299383,
+        0.9995487028448105,
+        -0.02190754039062876,
+        0.019966997167118427,
+        -0.004875380951006027
+      ]
+    },
+    "contact": {
+      "left": [
+        -0.07460689153347383,
+        0.22325532727298703,
+        0.167531897336068,
+        0.9927189449421837,
+        -0.030352838225228895,
+        0.051646085327201136,
+        0.1045011169075485
+      ],
+      "right": [
+        -0.09881222873413159,
+        -0.08106949273730259,
+        0.09892855884651364,
+        0.8649527875184261,
+        -0.4220797754093829,
+        0.2187187319204126,
+        0.16083362478535118
+      ],
+      "torso": [
+        -0.27901660705527787,
+        0.06417123573080895,
+        0.1569331858000177,
+        0.9992787918032976,
+        0.015324333999521897,
+        0.03400795711264037,
+        0.007107734705025179
+      ]
+    },
+    "lift": {
+      "left": [
+        -0.0870182954572295,
+        0.23420113372212986,
+        0.2261965982362738,
+        0.9819906960797977,
+        -0.037731837089405286,
+        0.026609728315595257,
+        0.18320071954428108
+      ],
+      "right": [
+        -0.042034584647141326,
+        -0.06283700207983908,
+        0.16897633626816855,
+        0.9420304889289011,
+        -0.2684141470849628,
+        0.06460280011807411,
+        0.19068005084415984
+      ],
+      "torso": [
+        -0.24435552333562327,
+        0.06318191532142027,
+        0.15490262670319144,
+        0.9966628650186902,
+        0.03902784639670593,
+        0.04646478913084193,
+        0.05459838889012398
+      ]
+    }
+  },
+  "stance": [
+    -0.2335787501675094,
+    0.08213246211043647,
+    0.0
+  ],
+  "height": 0.7863986522454298,
+  "seated_height": 0.7826579737257504,
+  "open": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "closed": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.699999988079071,
+    -0.699999988079071,
+    1.0,
+    1.5,
+    1.0,
+    1.5
+  ],
+  "contact_fingers": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.699999988079071,
+    -0.699999988079071,
+    1.0,
+    1.5,
+    1.0,
+    1.5
+  ],
+  "active": [
+    "right"
+  ],
+  "source_access": "keyframes_only",
+  "extraction_evidence": {
+    "source_manifest": "/home/kinetra-4090-01/code/zijian/cap-sim-api-augmentation/humanoid_mimicgen/workflow/tests/fixtures/navigation/apple_lateral.json",
+    "source_manifest_sha256": "208baee0086dd5ce5d797e803c772ec193b30cc337f5547cecf835c128766283",
+    "source_interval": [
+      1098,
+      1875
+    ],
+    "hand_alignment": "actual controller timestamps; sample-and-hold",
+    "phase_selection": "last supported measured hand contact before native success, and native-success object-height peak for grasps; native seat contact for chair; approved source peak selected force for button",
+    "phases": {
+      "approach": {
+        "source_row": 1098,
+        "state_time_s": 7.494999999999862,
+        "controller_index": 274,
+        "controller_time_s": 7.484999999999863,
+        "object_xyz": [
+          -0.2692323809159872,
+          -0.05932975080867079,
+          0.6812440298672515
+        ],
+        "hand_object_N": null,
+        "robot_object_N": null,
+        "support_N": null,
+        "native_success": null,
+        "selected_contact_force_N": null
+      },
+      "contact": {
+        "source_row": 1388,
+        "state_time_s": 8.944999999999999,
+        "controller_index": 347,
+        "controller_time_s": 8.944999999999999,
+        "object_xyz": [
+          -0.2721005570525289,
+          -0.05723699114262669,
+          0.6818151830571801
+        ],
+        "hand_object_N": 4.692772717301973,
+        "robot_object_N": 4.692772717301973,
+        "support_N": 3.7663151676996005,
+        "native_success": false,
+        "selected_contact_force_N": 4.692772717301973
+      },
+      "lift": {
+        "source_row": 1776,
+        "state_time_s": 10.885000000000302,
+        "controller_index": 444,
+        "controller_time_s": 10.885000000000302,
+        "object_xyz": [
+          -0.21731982404014288,
+          -0.006305250296950156,
+          0.814095669258922
+        ],
+        "hand_object_N": 22.44905380818268,
+        "robot_object_N": 22.44905380818268,
+        "support_N": 0.0,
+        "native_success": true,
+        "selected_contact_force_N": 22.44905380818268
+      }
+    },
+    "proof_object_displacement_m": [
+      0.05478073301238601,
+      0.05093174084567653,
+      0.13228048620174182
+    ],
+    "proof_wrist_displacement_world_m": {
+      "right": [
+        0.056777644086990264,
+        0.018232490657463504,
+        0.07004777742165491
+      ]
+    }
+  },
+  "provenance": {
+    "original_actions_visible_during_extraction": true,
+    "original_actions_visible_during_execution": false,
+    "source_sha256": {
+      "/home/kinetra-4090-01/code/zijian/cap-sim-api-augmentation/humanoid_mimicgen/workflow/tests/fixtures/navigation/apple_lateral.json": "208baee0086dd5ce5d797e803c772ec193b30cc337f5547cecf835c128766283",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1709_rollback_apple_expanded_queue/apple/verify_full/experiments/20261025_1719_tableapplepick_token_prefix_mode1/scene.mjb": "2fa01c081c55de219ea94e66e13b9cb386bab693341bcf95b58f3efd836d5ec6",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1709_rollback_apple_expanded_queue/apple/verify_full/experiments/20261025_1719_tableapplepick_token_prefix_mode1/execution/trajectory.npz": "fe09d1240d1b280c4f19f2861f0ddf851f625b71a2f85a37898bb4fb65333ea0",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1709_rollback_apple_expanded_queue/apple/verify_full/experiments/20261025_1719_tableapplepick_token_prefix_mode1/result.json": "def4f8ed2b7e4d042cfdd122e02c36d947b9be7821de704ad910f37aaec3d41a",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1709_rollback_apple_expanded_queue/apple/verify_full/experiments/20261025_1719_tableapplepick_token_prefix_mode1/execution/hand_commands.npz": "43196180575005705d83fb0f5f5ce570502bbeb257bfeda5b3ac88c0dbb55214",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1709_rollback_apple_expanded_queue/apple/verify_full/experiments/20261025_1719_tableapplepick_token_prefix_mode1/execution/controller.npz": "6196b9460e5034b92a705e511bfd5bfc2a798b5501c2219eec6bfb5496d36d75",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1709_rollback_apple_expanded_queue/apple/verify_full/experiments/20261025_1719_tableapplepick_token_prefix_mode1/execution/metrics.json": "51e628ab18a0605cfb371329ec3b36e4819ec1f68f50e4532a9748fcce6aa7b0"
+    },
+    "reference_baseline": "historical trajectory retargeting; not a paired controller comparison"
+  },
+  "bindings": {
+    "contact_policy": [
+      {
+        "start": 1098,
+        "end": 1875,
+        "allowed_geom_pairs": [
+          [
+            0,
+            15
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            0,
+            17
+          ],
+          [
+            0,
+            18
+          ],
+          [
+            0,
+            30
+          ],
+          [
+            0,
+            31
+          ],
+          [
+            0,
+            32
+          ],
+          [
+            0,
+            33
+          ],
+          [
+            104,
+            105
+          ],
+          [
+            104,
+            99
+          ],
+          [
+            101,
+            105
+          ],
+          [
+            103,
+            105
+          ],
+          [
+            95,
+            105
+          ]
+        ]
+      }
+    ],
+    "feet": [
+      "left_ankle_roll_link",
+      "right_ankle_roll_link"
+    ],
+    "frame": {
+      "evidence": "Archived fixed scene world X; new scene must explicitly supply surface heading",
+      "kind": "world_heading",
+      "yaw_rad": 0.0
+    },
+    "ground_geoms": [
+      "ground"
+    ],
+    "navigation_allowed_geom_pairs": [
+      [
+        105,
+        104
+      ],
+      [
+        105,
+        0
+      ]
+    ],
+    "object": "apple_001",
+    "operation_bodies": [
+      "right_wrist_yaw_link"
+    ],
+    "root_body": "pelvis",
+    "support_geoms": [
+      "table_geom"
+    ],
+    "wrists": {
+      "left": "left_wrist_yaw_link",
+      "right": "right_wrist_yaw_link"
+    },
+    "capture_bodies": [
+      "pelvis",
+      "left_ankle_roll_link",
+      "right_ankle_roll_link",
+      "left_wrist_yaw_link",
+      "right_wrist_yaw_link"
+    ],
+    "lateral_surface": {
+      "geom": "table_geom",
+      "normal_local": [
+        1,
+        0,
+        0
+      ]
+    },
+    "operation_stages": {
+      "entry": 1098,
+      "closure": 1360,
+      "first_contact": 1384,
+      "lift": 1390,
+      "end": 1875
+    },
+    "command_hand_joints": [
+      "left_hand_thumb_0_joint",
+      "left_hand_thumb_1_joint",
+      "left_hand_thumb_2_joint",
+      "left_hand_middle_0_joint",
+      "left_hand_middle_1_joint",
+      "left_hand_index_0_joint",
+      "left_hand_index_1_joint",
+      "right_hand_thumb_0_joint",
+      "right_hand_thumb_1_joint",
+      "right_hand_thumb_2_joint",
+      "right_hand_middle_0_joint",
+      "right_hand_middle_1_joint",
+      "right_hand_index_0_joint",
+      "right_hand_index_1_joint"
+    ]
+  },
+  "acceptance": "native"
+}

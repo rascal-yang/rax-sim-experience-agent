@@ -1,0 +1,1346 @@
+{
+  "version": 15,
+  "entries": [
+    {
+      "task": "chair",
+      "outcome": {
+        "experiment_id": "20261028_2308_experience_chair_负10",
+        "started_at": "2026-10-28T23:08:40+08:00",
+        "ended_at": "2026-10-28T23:09:20+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:09:17+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false
+        },
+        "physics_steps": 8996,
+        "timing": {
+          "planning_wall_s": 0.1404220750555396,
+          "simulation_compute_wall_s": 2.4822676447220147,
+          "total_execution_wall_s": 39.95119239529595,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:09:20+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2308_experience_chair_负10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2308_experience_chair_负10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "chair",
+      "outcome": {
+        "experiment_id": "20261028_2309_experience_chair_正10",
+        "started_at": "2026-10-28T23:09:25+08:00",
+        "ended_at": "2026-10-28T23:10:06+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:10:04+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false
+        },
+        "physics_steps": 8996,
+        "timing": {
+          "planning_wall_s": 0.1428010929375887,
+          "simulation_compute_wall_s": 2.4911913573741913,
+          "total_execution_wall_s": 41.19786035362631,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:10:06+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2309_experience_chair_正10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2309_experience_chair_正10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "chair",
+      "outcome": {
+        "experiment_id": "20261028_2311_experience_chair_负10",
+        "started_at": "2026-10-28T23:11:52+08:00",
+        "ended_at": "2026-10-28T23:12:33+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:11:52+08:00",
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:12:30+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 8996,
+        "actual_integrated_steps_all_branches": 8996,
+        "stage_coverage": {
+          "navigation": 8996,
+          "settle": 0,
+          "approach": 0,
+          "contact": 0,
+          "acquire": 0,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.14131734054535627,
+          "physics_step_compute_wall_s": 3.5715332818217576,
+          "total_execution_wall_s": 40.63895727600902,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:12:33+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2311_experience_chair_负10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2311_experience_chair_负10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "chair",
+      "outcome": {
+        "experiment_id": "20261028_2312_experience_chair_正10",
+        "started_at": "2026-10-28T23:12:38+08:00",
+        "ended_at": "2026-10-28T23:13:19+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:12:38+08:00",
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:13:16+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 8996,
+        "actual_integrated_steps_all_branches": 8996,
+        "stage_coverage": {
+          "navigation": 8996,
+          "settle": 0,
+          "approach": 0,
+          "contact": 0,
+          "acquire": 0,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.25863270927220583,
+          "physics_step_compute_wall_s": 3.611875664908439,
+          "total_execution_wall_s": 40.856054672040045,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:13:19+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2312_experience_chair_正10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2312_experience_chair_正10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "chair",
+      "outcome": {
+        "experiment_id": "20261028_2323_experience_chair_负10",
+        "started_at": "2026-10-28T23:23:45+08:00",
+        "ended_at": "2026-10-28T23:24:26+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:23:45+08:00",
+            "inherited_prefix_steps": 0,
+            "newly_integrated_steps": 8996,
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:24:23+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "trajectory_coverage_checked": true,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 8996,
+        "actual_integrated_steps_all_branches": 8996,
+        "stage_coverage": {
+          "navigation": 8996,
+          "settle": 0,
+          "approach": 0,
+          "contact": 0,
+          "acquire": 0,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.14232499292120337,
+          "physics_step_compute_wall_s": 3.5341601972468197,
+          "total_execution_wall_s": 40.904567724093795,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:24:26+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2323_experience_chair_负10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2323_experience_chair_负10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "chair",
+      "outcome": {
+        "experiment_id": "20261028_2324_experience_chair_正10",
+        "started_at": "2026-10-28T23:24:31+08:00",
+        "ended_at": "2026-10-28T23:25:13+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:24:31+08:00",
+            "inherited_prefix_steps": 0,
+            "newly_integrated_steps": 8996,
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:25:10+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "trajectory_coverage_checked": true,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 8996,
+        "actual_integrated_steps_all_branches": 8996,
+        "stage_coverage": {
+          "navigation": 8996,
+          "settle": 0,
+          "approach": 0,
+          "contact": 0,
+          "acquire": 0,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.14708458818495274,
+          "physics_step_compute_wall_s": 3.6531433751806617,
+          "total_execution_wall_s": 41.77647618111223,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:25:13+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2324_experience_chair_正10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2324_experience_chair_正10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "apple",
+      "outcome": {
+        "experiment_id": "20261028_2325_experience_apple_负10",
+        "started_at": "2026-10-28T23:25:19+08:00",
+        "ended_at": "2026-10-28T23:25:42+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "acquire_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "lift_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:25:19+08:00",
+            "inherited_prefix_steps": 0,
+            "newly_integrated_steps": 3128,
+            "executed_steps": 3128,
+            "ended_at": "2026-10-28T23:25:32+08:00"
+          },
+          {
+            "branch": 1,
+            "failure": "acquire_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:25:33+08:00",
+            "inherited_prefix_steps": 620,
+            "newly_integrated_steps": 816,
+            "executed_steps": 1436,
+            "ended_at": "2026-10-28T23:25:36+08:00"
+          },
+          {
+            "branch": 2,
+            "failure": "acquire_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:25:37+08:00",
+            "inherited_prefix_steps": 620,
+            "newly_integrated_steps": 1052,
+            "executed_steps": 1672,
+            "ended_at": "2026-10-28T23:25:41+08:00"
+          }
+        ],
+        "transitions": [
+          {
+            "from_stage": "navigation",
+            "to_stage": "settle",
+            "time_s": 1.919999999999981
+          },
+          {
+            "from_stage": "settle",
+            "to_stage": "approach",
+            "time_s": 3.099999999999956
+          },
+          {
+            "from_stage": "approach",
+            "to_stage": "contact",
+            "time_s": 4.279999999999931
+          },
+          {
+            "from_stage": "contact",
+            "to_stage": "acquire",
+            "time_s": 4.359999999999929
+          }
+        ],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "trajectory_coverage_checked": true,
+          "body_tokens": 418,
+          "hand_steps": 1672,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 1672,
+        "actual_integrated_steps_all_branches": 4996,
+        "stage_coverage": {
+          "navigation": 384,
+          "settle": 236,
+          "approach": 236,
+          "contact": 16,
+          "acquire": 800,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.0840735761448741,
+          "physics_step_compute_wall_s": 2.137051682919264,
+          "total_execution_wall_s": 22.9344148831442,
+          "simulation_s": 8.359999999999907,
+          "rendering_wall_s": null
+        },
+        "task": "apple",
+        "acceptance": "native",
+        "retained_grasp": false
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:25:42+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2325_experience_apple_负10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2325_experience_apple_负10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "apple",
+      "outcome": {
+        "experiment_id": "20261028_2325_experience_apple_正10",
+        "started_at": "2026-10-28T23:25:47+08:00",
+        "ended_at": "2026-10-28T23:26:11+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "lift_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "lift_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:25:47+08:00",
+            "inherited_prefix_steps": 0,
+            "newly_integrated_steps": 2332,
+            "executed_steps": 2332,
+            "ended_at": "2026-10-28T23:25:57+08:00"
+          },
+          {
+            "branch": 1,
+            "failure": "acquire_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:25:58+08:00",
+            "inherited_prefix_steps": 620,
+            "newly_integrated_steps": 844,
+            "executed_steps": 1464,
+            "ended_at": "2026-10-28T23:26:01+08:00"
+          },
+          {
+            "branch": 2,
+            "failure": "lift_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:26:02+08:00",
+            "inherited_prefix_steps": 620,
+            "newly_integrated_steps": 2008,
+            "executed_steps": 2628,
+            "ended_at": "2026-10-28T23:26:10+08:00"
+          }
+        ],
+        "transitions": [
+          {
+            "from_stage": "navigation",
+            "to_stage": "settle",
+            "time_s": 2.7999999999999625
+          },
+          {
+            "from_stage": "settle",
+            "to_stage": "approach",
+            "time_s": 3.099999999999956
+          },
+          {
+            "from_stage": "approach",
+            "to_stage": "contact",
+            "time_s": 3.439999999999949
+          },
+          {
+            "from_stage": "contact",
+            "to_stage": "acquire",
+            "time_s": 3.519999999999947
+          },
+          {
+            "from_stage": "acquire",
+            "to_stage": "lift",
+            "time_s": 5.119999999999913
+          }
+        ],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "trajectory_coverage_checked": true,
+          "body_tokens": 657,
+          "hand_steps": 2628,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 2628,
+        "actual_integrated_steps_all_branches": 5184,
+        "stage_coverage": {
+          "navigation": 560,
+          "settle": 60,
+          "approach": 68,
+          "contact": 16,
+          "acquire": 320,
+          "lift": 1604,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.09439286915585399,
+          "physics_step_compute_wall_s": 2.191901338752359,
+          "total_execution_wall_s": 23.629627562128007,
+          "simulation_s": 13.140000000000654,
+          "rendering_wall_s": null
+        },
+        "task": "apple",
+        "acceptance": "native",
+        "retained_grasp": false
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:26:11+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2325_experience_apple_正10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2325_experience_apple_正10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "button",
+      "outcome": {
+        "experiment_id": "20261028_2326_experience_button_负10",
+        "started_at": "2026-10-28T23:26:16+08:00",
+        "ended_at": "2026-10-28T23:26:52+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "contact_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "contact_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:26:16+08:00",
+            "inherited_prefix_steps": 0,
+            "newly_integrated_steps": 2512,
+            "executed_steps": 2512,
+            "ended_at": "2026-10-28T23:26:31+08:00"
+          },
+          {
+            "branch": 1,
+            "failure": "contact_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:26:32+08:00",
+            "inherited_prefix_steps": 904,
+            "newly_integrated_steps": 1616,
+            "executed_steps": 2520,
+            "ended_at": "2026-10-28T23:26:42+08:00"
+          },
+          {
+            "branch": 2,
+            "failure": "contact_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:26:43+08:00",
+            "inherited_prefix_steps": 904,
+            "newly_integrated_steps": 1604,
+            "executed_steps": 2508,
+            "ended_at": "2026-10-28T23:26:52+08:00"
+          }
+        ],
+        "transitions": [
+          {
+            "from_stage": "navigation",
+            "to_stage": "settle",
+            "time_s": 1.8999999999999815
+          },
+          {
+            "from_stage": "settle",
+            "to_stage": "approach",
+            "time_s": 4.519999999999926
+          },
+          {
+            "from_stage": "approach",
+            "to_stage": "contact",
+            "time_s": 4.519999999999926
+          }
+        ],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "trajectory_coverage_checked": true,
+          "body_tokens": 627,
+          "hand_steps": 2508,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 2508,
+        "actual_integrated_steps_all_branches": 5732,
+        "stage_coverage": {
+          "navigation": 380,
+          "settle": 524,
+          "approach": 0,
+          "contact": 1604,
+          "acquire": 0,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.10031007137149572,
+          "physics_step_compute_wall_s": 1.987358113285154,
+          "total_execution_wall_s": 36.14130665035918,
+          "simulation_s": 12.54000000000056,
+          "rendering_wall_s": null
+        },
+        "task": "button",
+        "acceptance": "button_palm_mesh_v1",
+        "retained_grasp": null,
+        "max_obstacle_N": 938.1223144469645,
+        "approved_success": false
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:26:58+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2326_experience_button_负10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2326_experience_button_负10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "button",
+      "outcome": {
+        "experiment_id": "20261028_2326_experience_button_正10",
+        "started_at": "2026-10-28T23:27:03+08:00",
+        "ended_at": "2026-10-28T23:27:38+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "contact_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "contact_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:27:03+08:00",
+            "inherited_prefix_steps": 0,
+            "newly_integrated_steps": 2244,
+            "executed_steps": 2244,
+            "ended_at": "2026-10-28T23:27:17+08:00"
+          },
+          {
+            "branch": 1,
+            "failure": "contact_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:27:18+08:00",
+            "inherited_prefix_steps": 636,
+            "newly_integrated_steps": 1604,
+            "executed_steps": 2240,
+            "ended_at": "2026-10-28T23:27:27+08:00"
+          },
+          {
+            "branch": 2,
+            "failure": "contact_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:27:28+08:00",
+            "inherited_prefix_steps": 636,
+            "newly_integrated_steps": 1604,
+            "executed_steps": 2240,
+            "ended_at": "2026-10-28T23:27:37+08:00"
+          }
+        ],
+        "transitions": [
+          {
+            "from_stage": "navigation",
+            "to_stage": "settle",
+            "time_s": 2.579999999999967
+          },
+          {
+            "from_stage": "settle",
+            "to_stage": "approach",
+            "time_s": 3.1799999999999544
+          },
+          {
+            "from_stage": "approach",
+            "to_stage": "contact",
+            "time_s": 3.1799999999999544
+          }
+        ],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "trajectory_coverage_checked": true,
+          "body_tokens": 560,
+          "hand_steps": 2240,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 2240,
+        "actual_integrated_steps_all_branches": 5452,
+        "stage_coverage": {
+          "navigation": 516,
+          "settle": 120,
+          "approach": 0,
+          "contact": 1604,
+          "acquire": 0,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.097586571238935,
+          "physics_step_compute_wall_s": 1.8506110575981438,
+          "total_execution_wall_s": 34.520396396983415,
+          "simulation_s": 11.200000000000351,
+          "rendering_wall_s": null
+        },
+        "task": "button",
+        "acceptance": "button_palm_mesh_v1",
+        "retained_grasp": null,
+        "max_obstacle_N": 812.8165276407137,
+        "approved_success": false
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:27:42+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2326_experience_button_正10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2326_experience_button_正10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "plate",
+      "outcome": {
+        "experiment_id": "20261028_2327_experience_plate_负10",
+        "started_at": "2026-10-28T23:27:47+08:00",
+        "ended_at": "2026-10-28T23:28:15+08:00",
+        "success": false,
+        "native_success": true,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "acquire_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "contact_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:27:47+08:00",
+            "inherited_prefix_steps": 0,
+            "newly_integrated_steps": 2356,
+            "executed_steps": 2356,
+            "ended_at": "2026-10-28T23:27:58+08:00"
+          },
+          {
+            "branch": 1,
+            "failure": "acquire_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:27:59+08:00",
+            "inherited_prefix_steps": 604,
+            "newly_integrated_steps": 1460,
+            "executed_steps": 2064,
+            "ended_at": "2026-10-28T23:28:05+08:00"
+          },
+          {
+            "branch": 2,
+            "failure": "acquire_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": true,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:28:06+08:00",
+            "inherited_prefix_steps": 604,
+            "newly_integrated_steps": 1980,
+            "executed_steps": 2584,
+            "ended_at": "2026-10-28T23:28:15+08:00"
+          }
+        ],
+        "transitions": [
+          {
+            "from_stage": "navigation",
+            "to_stage": "settle",
+            "time_s": 1.9799999999999798
+          },
+          {
+            "from_stage": "settle",
+            "to_stage": "approach",
+            "time_s": 3.019999999999958
+          },
+          {
+            "from_stage": "approach",
+            "to_stage": "contact",
+            "time_s": 4.579999999999925
+          },
+          {
+            "from_stage": "contact",
+            "to_stage": "acquire",
+            "time_s": 8.919999999999995
+          }
+        ],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "trajectory_coverage_checked": true,
+          "body_tokens": 646,
+          "hand_steps": 2584,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 2584,
+        "actual_integrated_steps_all_branches": 5796,
+        "stage_coverage": {
+          "navigation": 396,
+          "settle": 208,
+          "approach": 312,
+          "contact": 868,
+          "acquire": 800,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.09661447489634156,
+          "physics_step_compute_wall_s": 2.9186496105976403,
+          "total_execution_wall_s": 28.07258169306442,
+          "simulation_s": 12.92000000000062,
+          "rendering_wall_s": null
+        },
+        "task": "plate",
+        "acceptance": "native",
+        "retained_grasp": false
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:28:15+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2327_experience_plate_负10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2327_experience_plate_负10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "plate",
+      "outcome": {
+        "experiment_id": "20261028_2328_experience_plate_正10",
+        "started_at": "2026-10-28T23:28:21+08:00",
+        "ended_at": "2026-10-28T23:29:04+08:00",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "lift_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "lift_timeout",
+            "outcome": "insufficient_lift",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:28:21+08:00",
+            "inherited_prefix_steps": 0,
+            "newly_integrated_steps": 3740,
+            "executed_steps": 3740,
+            "ended_at": "2026-10-28T23:28:38+08:00"
+          },
+          {
+            "branch": 1,
+            "failure": "lift_timeout",
+            "outcome": "insufficient_lift",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:28:40+08:00",
+            "inherited_prefix_steps": 1348,
+            "newly_integrated_steps": 2392,
+            "executed_steps": 3740,
+            "ended_at": "2026-10-28T23:28:50+08:00"
+          },
+          {
+            "branch": 2,
+            "failure": "lift_timeout",
+            "outcome": "insufficient_lift",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:28:52+08:00",
+            "inherited_prefix_steps": 1348,
+            "newly_integrated_steps": 2392,
+            "executed_steps": 3740,
+            "ended_at": "2026-10-28T23:29:03+08:00"
+          }
+        ],
+        "transitions": [
+          {
+            "from_stage": "navigation",
+            "to_stage": "settle",
+            "time_s": 3.1199999999999557
+          },
+          {
+            "from_stage": "settle",
+            "to_stage": "approach",
+            "time_s": 6.7399999999998785
+          },
+          {
+            "from_stage": "approach",
+            "to_stage": "contact",
+            "time_s": 7.479999999999863
+          },
+          {
+            "from_stage": "contact",
+            "to_stage": "acquire",
+            "time_s": 7.559999999999861
+          },
+          {
+            "from_stage": "acquire",
+            "to_stage": "lift",
+            "time_s": 10.68000000000027
+          }
+        ],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "trajectory_coverage_checked": true,
+          "body_tokens": 935,
+          "hand_steps": 3740,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 3740,
+        "actual_integrated_steps_all_branches": 8524,
+        "stage_coverage": {
+          "navigation": 624,
+          "settle": 724,
+          "approach": 148,
+          "contact": 16,
+          "acquire": 624,
+          "lift": 1604,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.13762236898764968,
+          "physics_step_compute_wall_s": 4.585272251628339,
+          "total_execution_wall_s": 43.25678530195728,
+          "simulation_s": 18.700000000000564,
+          "rendering_wall_s": null
+        },
+        "task": "plate",
+        "acceptance": "native",
+        "retained_grasp": false
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:29:04+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2328_experience_plate_正10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2328_experience_plate_正10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "chair",
+      "outcome": {
+        "experiment_id": "20261028_2332_experience_chair_负10",
+        "started_at": "2026-10-28T23:33:00+08:00",
+        "ended_at": "2026-10-28T23:33:49+08:00",
+        "task_outcome_success": false,
+        "record_valid": true,
+        "verification_failure": null,
+        "physical_evidence_kind": "native_mujoco",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:33:00+08:00",
+            "inherited_prefix_steps": 0,
+            "newly_integrated_steps": 8996,
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:33:46+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "trajectory_coverage_checked": true,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 8996,
+        "actual_integrated_steps_all_branches": 8996,
+        "stage_coverage": {
+          "navigation": 8996,
+          "settle": 0,
+          "approach": 0,
+          "contact": 0,
+          "acquire": 0,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.21795715996995568,
+          "physics_step_compute_wall_s": 4.379765528719872,
+          "total_execution_wall_s": 48.89342927886173,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:33:49+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2332_experience_chair_负10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2332_experience_chair_负10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "chair",
+      "outcome": {
+        "experiment_id": "20261028_2333_experience_chair_正10",
+        "started_at": "2026-10-28T23:33:55+08:00",
+        "ended_at": "2026-10-28T23:34:44+08:00",
+        "task_outcome_success": false,
+        "record_valid": true,
+        "verification_failure": null,
+        "physical_evidence_kind": "native_mujoco",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "navigation_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "navigation_timeout",
+            "outcome": "task_predicate_failed",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:33:55+08:00",
+            "inherited_prefix_steps": 0,
+            "newly_integrated_steps": 8996,
+            "executed_steps": 8996,
+            "ended_at": "2026-10-28T23:34:41+08:00"
+          }
+        ],
+        "transitions": [],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "trajectory_coverage_checked": true,
+          "body_tokens": 2249,
+          "hand_steps": 8996,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 8996,
+        "actual_integrated_steps_all_branches": 8996,
+        "stage_coverage": {
+          "navigation": 8996,
+          "settle": 0,
+          "approach": 0,
+          "contact": 0,
+          "acquire": 0,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.21528349304571748,
+          "physics_step_compute_wall_s": 4.444963478017598,
+          "total_execution_wall_s": 49.31767444917932,
+          "simulation_s": 44.98000000000456,
+          "rendering_wall_s": null
+        },
+        "task": "chair",
+        "acceptance": "native",
+        "retained_grasp": null
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:34:44+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2333_experience_chair_正10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2333_experience_chair_正10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    },
+    {
+      "task": "apple",
+      "outcome": {
+        "experiment_id": "20261028_2334_experience_apple_负10",
+        "started_at": "2026-10-28T23:34:51+08:00",
+        "ended_at": "2026-10-28T23:35:08+08:00",
+        "task_outcome_success": false,
+        "record_valid": true,
+        "verification_failure": null,
+        "physical_evidence_kind": "native_mujoco",
+        "success": false,
+        "native_success": false,
+        "native_terminal": false,
+        "completed": false,
+        "failure": "acquire_timeout",
+        "attempts": [
+          {
+            "branch": 0,
+            "failure": "acquire_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:34:51+08:00",
+            "inherited_prefix_steps": 0,
+            "newly_integrated_steps": 1476,
+            "executed_steps": 1476,
+            "ended_at": "2026-10-28T23:34:58+08:00"
+          },
+          {
+            "branch": 1,
+            "failure": "acquire_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:34:59+08:00",
+            "inherited_prefix_steps": 640,
+            "newly_integrated_steps": 816,
+            "executed_steps": 1456,
+            "ended_at": "2026-10-28T23:35:03+08:00"
+          },
+          {
+            "branch": 2,
+            "failure": "acquire_timeout",
+            "outcome": "no_acquisition",
+            "native_ever": false,
+            "native_terminal": false,
+            "started_at": "2026-10-28T23:35:03+08:00",
+            "inherited_prefix_steps": 640,
+            "newly_integrated_steps": 816,
+            "executed_steps": 1456,
+            "ended_at": "2026-10-28T23:35:07+08:00"
+          }
+        ],
+        "transitions": [
+          {
+            "from_stage": "navigation",
+            "to_stage": "settle",
+            "time_s": 1.9799999999999798
+          },
+          {
+            "from_stage": "settle",
+            "to_stage": "approach",
+            "time_s": 3.199999999999954
+          },
+          {
+            "from_stage": "approach",
+            "to_stage": "contact",
+            "time_s": 3.199999999999954
+          },
+          {
+            "from_stage": "contact",
+            "to_stage": "acquire",
+            "time_s": 3.2799999999999523
+          }
+        ],
+        "audit": {
+          "passed": true,
+          "actual_modes": [
+            1
+          ],
+          "original_token_steps": 0,
+          "trajectory_coverage_checked": true,
+          "body_tokens": 364,
+          "hand_steps": 1456,
+          "post_decoder_override": false,
+          "simulator_warning_count": 0,
+          "recorded_state_continuity": true
+        },
+        "physics_steps": 1456,
+        "actual_integrated_steps_all_branches": 3108,
+        "stage_coverage": {
+          "navigation": 396,
+          "settle": 244,
+          "approach": 0,
+          "contact": 16,
+          "acquire": 800,
+          "lift": 0,
+          "hold": 0,
+          "done": 0
+        },
+        "timing": {
+          "planning_wall_s": 0.07504858542233706,
+          "physics_step_compute_wall_s": 1.5734335049055517,
+          "total_execution_wall_s": 17.185021352022886,
+          "simulation_s": 7.279999999999867,
+          "rendering_wall_s": null
+        },
+        "task": "apple",
+        "acceptance": "native",
+        "retained_grasp": false
+      },
+      "verified_success": false,
+      "recorded_at": "2026-10-28T23:35:08+08:00",
+      "provenance": {
+        "experiment": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2334_experience_apple_负10",
+        "contract": "/home/kinetra-4090-01/code/zijian/experiments/2026-10/28/20261028_2334_experience_apple_负10/experiment.json"
+      },
+      "applicability": "task and declared lateral condition only"
+    }
+  ]
+}

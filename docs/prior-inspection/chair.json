@@ -1,0 +1,254 @@
+{
+  "schema_version": 2,
+  "task": "chair",
+  "poses": {
+    "approach": {
+      "left": [
+        -0.41336706726827266,
+        -0.18497736058841482,
+        0.5013362624305845,
+        0.13101015329812923,
+        0.469549713914992,
+        -0.09111320087462436,
+        -0.8683650099592516
+      ],
+      "right": [
+        -0.49159501278356355,
+        0.13950262287336496,
+        0.5273168423377405,
+        0.026141976672285197,
+        0.42752469892056627,
+        0.11242449489422779,
+        -0.8966046853638022
+      ],
+      "torso": [
+        -0.2137065311926089,
+        0.010794831665181042,
+        0.6407004067019229,
+        0.05795441775477885,
+        0.21112307680762443,
+        0.03489397231106555,
+        -0.9751157585632287
+      ]
+    },
+    "contact": {
+      "left": [
+        -0.38727932392542014,
+        -0.17680286053462155,
+        0.5257173604785319,
+        0.09319840850674188,
+        0.3984986127173151,
+        -0.061337702074835604,
+        -0.9103574015837756
+      ],
+      "right": [
+        -0.4657675362594648,
+        0.14003992271547058,
+        0.5442696133516141,
+        0.056985583606959864,
+        0.37084767078607,
+        0.06109038200297939,
+        -0.9249284369940465
+      ],
+      "torso": [
+        -0.19221401299501523,
+        0.01701494970017203,
+        0.6332607103465113,
+        0.06604683916059607,
+        0.18746954806656768,
+        0.025877652567233417,
+        -0.9797057367813153
+      ]
+    },
+    "lift": {
+      "left": [
+        -0.38965398026806436,
+        -0.17476224886432107,
+        0.5227341128455496,
+        0.08372017638598722,
+        0.39215596852193363,
+        -0.06495467225755197,
+        -0.9137754204236611
+      ],
+      "right": [
+        -0.4654029178724833,
+        0.1456613387107422,
+        0.544662320546347,
+        0.06375200864751265,
+        0.3649176088961236,
+        0.06872474914887006,
+        -0.9263086575031935
+      ],
+      "torso": [
+        -0.19674832664828096,
+        0.015030114391633452,
+        0.632234306671374,
+        0.06056642197103298,
+        0.19473857619129775,
+        0.029441726049481063,
+        -0.9785406380114425
+      ]
+    }
+  },
+  "stance": [
+    -0.19949840674974462,
+    0.014369489378384295,
+    0.0
+  ],
+  "height": 0.5908924602028677,
+  "seated_height": 0.5823854181869268,
+  "open": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "closed": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "contact_fingers": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "active": [],
+  "source_access": "keyframes_only",
+  "extraction_evidence": {
+    "source_manifest": "/home/kinetra-4090-01/code/zijian/cap-sim-api-augmentation/humanoid_mimicgen/workflow/tests/fixtures/navigation/chair.json",
+    "source_manifest_sha256": "1096c9457114b42e85081fcf9efcce58a34a3730afeb2a28428093dd6a6ae0e5",
+    "source_interval": [
+      1408,
+      2047
+    ],
+    "hand_alignment": "actual controller timestamps; sample-and-hold",
+    "phase_selection": "last supported measured hand contact before native success, and native-success object-height peak for grasps; native seat contact for chair; approved source peak selected force for button",
+    "phases": {
+      "approach": {
+        "source_row": 1408,
+        "state_time_s": 9.045000000000014,
+        "controller_index": 352,
+        "controller_time_s": 9.045000000000014,
+        "object_xyz": [
+          -0.2787219810099949,
+          -0.005380030247954242,
+          0.0023159366693893614
+        ],
+        "hand_object_N": null,
+        "robot_object_N": null,
+        "support_N": null,
+        "native_success": null,
+        "selected_contact_force_N": null
+      },
+      "contact": {
+        "source_row": 1652,
+        "state_time_s": 10.265000000000205,
+        "controller_index": 413,
+        "controller_time_s": 10.265000000000205,
+        "object_xyz": [
+          -0.27872205137195355,
+          -0.005379771634914155,
+          0.002312902943816104
+        ],
+        "hand_object_N": 0.0,
+        "robot_object_N": 6.3463681070595355,
+        "support_N": 123.73285944585294,
+        "native_success": false,
+        "selected_contact_force_N": 6.3463681070595355
+      },
+      "lift": {
+        "source_row": 1964,
+        "state_time_s": 11.825000000000449,
+        "controller_index": 491,
+        "controller_time_s": 11.825000000000449,
+        "object_xyz": [
+          -0.2787193738981131,
+          -0.005379944674463038,
+          0.0023146222839663345
+        ],
+        "hand_object_N": 0.0,
+        "robot_object_N": 2.636242665625321,
+        "support_N": 120.75923938267451,
+        "native_success": true,
+        "selected_contact_force_N": 2.636242665625321
+      }
+    },
+    "proof_object_displacement_m": [
+      2.6774738404733434e-06,
+      -1.7303954888241158e-07,
+      1.7193401502303175e-06
+    ],
+    "proof_wrist_displacement_world_m": {}
+  },
+  "provenance": {
+    "original_actions_visible_during_extraction": true,
+    "original_actions_visible_during_execution": false,
+    "source_sha256": {
+      "/home/kinetra-4090-01/code/zijian/cap-sim-api-augmentation/humanoid_mimicgen/workflow/tests/fixtures/navigation/chair.json": "1096c9457114b42e85081fcf9efcce58a34a3730afeb2a28428093dd6a6ae0e5",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/chair/verify_full/experiments/20261025_1644_chairsit_token_prefix_mode1/scene.mjb": "0b1459267befa969d999b64d36d830df05d7d1b806bc237e13db1250b0d359f4",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/chair/verify_full/experiments/20261025_1644_chairsit_token_prefix_mode1/execution/trajectory.npz": "24c5546c4e134dbd28e60ca43445043ed0cc6b71113fe90c56879ee408847537",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/chair/verify_full/experiments/20261025_1644_chairsit_token_prefix_mode1/result.json": "88061d27352726e5cd9f13749810cb6d40fe2731d6f0f8738f5e2e4354465ba6",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/chair/verify_full/experiments/20261025_1644_chairsit_token_prefix_mode1/execution/hand_commands.npz": "178a5015892e7feeaa2e1fccd5089b28ebef9f4bfa939e6c6ab07a68d1a29c47",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/chair/verify_full/experiments/20261025_1644_chairsit_token_prefix_mode1/execution/controller.npz": "185e42e67946169e038eb55db0f832de539b6b571a57c74b19e5165e85575d69",
+      "/home/kinetra-4090-01/code/zijian/experiments/2026-10/25/20261025_1634_rollback_equal_budget/chair/verify_full/experiments/20261025_1644_chairsit_token_prefix_mode1/execution/metrics.json": "27d65f0cf227de0d68a4ba546c3d8c3e7b6257cea2f95c3f4b37043a1418bb0b"
+    },
+    "reference_baseline": "historical trajectory retargeting; not a paired controller comparison"
+  },
+  "bindings": {
+    "object": "chair_319_0p9",
+    "root_body": "pelvis",
+    "feet": [
+      "left_ankle_roll_link",
+      "right_ankle_roll_link"
+    ],
+    "ground_geoms": [
+      "ground"
+    ],
+    "support_geoms": [],
+    "frame": {
+      "kind": "world_heading",
+      "yaw_rad": 0.0,
+      "evidence": "Archived fixed scene world X; new scene must explicitly supply surface heading"
+    },
+    "operation_bodies": [
+      "pelvis",
+      "left_hip_pitch_link",
+      "right_hip_pitch_link"
+    ],
+    "contact_policy": []
+  },
+  "acceptance": "native"
+}
